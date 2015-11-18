@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values-hy/strings.xml -->
+    <eat-comment/>
+    <string name="action_share_file">Կիսվել հղմամբ</string>
+    <string name="actionbar_mkdir">Նոր պանակ</string>
+    <string name="actionbar_send_file">Ուղարկել</string>
+    <string name="actionbar_upload_files">Ֆայլեր</string>
+    <string name="activity_chooser_send_file_title">Ուղարկել</string>
+    <string name="auth_password">Գաղտնաբառ</string>
+    <string name="common_cancel">Չեղարկել</string>
+    <string name="common_rename">Վերանվանել</string>
+    <string name="drawer_open">Բացել</string>
+    <string name="empty"/>
+    <string name="filedetails_download">Բեռնել</string>
+    <string name="ssl_validator_label_C">Երկիր.</string>
+    <string name="sync_string_files">Ֆայլեր</string>
+    <string name="uploader_btn_new_folder_text">Նոր պանակ</string>
+</resources>

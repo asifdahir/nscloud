@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="touch-image-view">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/touch-image-view.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\nsCloud\libs\touch-image-view.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="49a6b2c0e86e2a02d7e9d2edec628459c56a03b8">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\nsCloud\build\intermediates\pre-dexed\debug\touch-image-view-aae9638092df31a33b520abca05d44d37d17b04e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.4\b080da16832c1240acbf3f59f338a8e713705c0c\slf4j-api-1.7.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b080da16832c1240acbf3f59f338a8e713705c0c">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\nsCloud\build\intermediates\pre-dexed\debug\slf4j-api-1.7.4-7827fc7fcb93c7e54496fbdbc9a9ef0e281ef5eb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.apache.jackrabbit\jackrabbit-webdav\2.10.1\ba35a4637e985d1b6dcdca7de75a22b3a0f52d13\jackrabbit-webdav-2.10.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba35a4637e985d1b6dcdca7de75a22b3a0f52d13">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\nsCloud\build\intermediates\pre-dexed\debug\jackrabbit-webdav-2.10.1-17c624a090bf4523c45fa6f4e58aeb4692c9eb1e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\disklrucache\2.0.2\93b399470e72c0bc8cb52379943b63c9aa586cd8\disklrucache-2.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="93b399470e72c0bc8cb52379943b63c9aa586cd8">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\nsCloud\build\intermediates\pre-dexed\debug\disklrucache-2.0.2-be47be7a71926436698005c3c73dd29eb62138fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.slf4j\jcl-over-slf4j\1.7.4\b7c1efe9a78b315b6be624e6f6f944788c6be6c0\jcl-over-slf4j-1.7.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b7c1efe9a78b315b6be624e6f6f944788c6be6c0">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\nsCloud\build\intermediates\pre-dexed\debug\jcl-over-slf4j-1.7.4-cef0ee7a9090aec719e029f47f30979f9fa43251.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\nsCloud\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\nsCloud\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-b17a07f409eae0fe20ed438c8b9401cdde068650.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\commons-httpclient\commons-httpclient\3.1\964cd74171f427720480efdec40a7c7f6e58426a\commons-httpclient-3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="964cd74171f427720480efdec40a7c7f6e58426a">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\nsCloud\build\intermediates\pre-dexed\debug\commons-httpclient-3.1-eed417fa19f13e1bc5d71f9aa83a23e0bcbbc962.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\nsCloud\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\nsCloud\build\intermediates\pre-dexed\debug\classes-14464ad63652969bdb308c5c311a4cccfcaca8cc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\nsCloud\build\intermediates\exploded-aar\nsCloud\nscloud-library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a7535da9841c4def213540fbaa5640a870b76f26">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\nsCloud\build\intermediates\pre-dexed\debug\classes-aa859d6cbd2a402f3e61b8858a858d24f996a75f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\nsCloud\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\nsCloud\build\intermediates\pre-dexed\debug\classes-8163b3b79fc4dd8dd4ffcb59faabef95842b6798.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.2\397f4731a9f9b6eb1907e224911c77ea3aa27a8b\commons-codec-1.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="397f4731a9f9b6eb1907e224911c77ea3aa27a8b">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\nsCloud\build\intermediates\pre-dexed\debug\commons-codec-1.2-1d3589a83bbed8838b6d3d472401d112c677a3e0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\nsCloud\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-a6ce99705681296d95d823232cbd0a327c65fd3e.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@android:id/background"
+        android:drawable="@color/owncloud_green_lime" />
+    <item android:id="@android:id/secondaryProgress">
+        <scale
+            android:drawable="@color/owncloud_green_lime"
+            android:scaleWidth="100%" />
+    </item>
+    <item android:id="@android:id/progress">
+        <scale
+            android:drawable="@color/owncloud_green_lime"
+            android:scaleWidth="100%" />
+    </item>
+
+</layer-list><!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/drawable/actionbar_progress_horizontal.xml -->
