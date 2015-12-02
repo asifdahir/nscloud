@@ -32,11 +32,14 @@ import com.nscloud.android.datamodel.ThumbnailsCacheManager;
 import com.nscloud.lib.common.NsCloudClientManagerFactory;
 import com.nscloud.lib.common.NsCloudClientManagerFactory.Policy;
 import com.nscloud.lib.common.utils.Log_OC;
+import com.nscloud.lib.crypto.Manager;
+
+import java.io.UnsupportedEncodingException;
 
 
 /**
  * Main Application of the project
- *
+ * <p/>
  * Contains methods to build the "static" strings. These strings were before constants in different
  * classes
  */

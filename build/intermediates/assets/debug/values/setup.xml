@@ -4,14 +4,14 @@
     <string name="app_name">NS Cloud</string>
     <string name="account_type">owncloud</string>
     <!-- better if was a domain name; but changing it now would require migrate accounts when the app is updated -->
-    <string name="authority">org.owncloud</string>
+    <string name="authority">org.nscloud</string>
     <!-- better if was the app package with ".provider" appended ; it identifies the provider -->
-    <string name="db_file">owncloud.db</string>
-    <string name="db_name">ownCloud</string>
-    <string name="data_folder">owncloud</string>
-    <string name="log_name">Owncloud_</string>
+    <string name="db_file">nscloud.db</string>
+    <string name="db_name">nsCloud</string>
+    <string name="data_folder">nscloud</string>
+    <string name="log_name">Nscloud_</string>
     <string name="default_display_name_for_root_folder">NS Cloud</string>
-    <string name="user_agent">Mozilla/5.0 (Android) ownCloud-android/%1$s</string>
+    <string name="user_agent">Mozilla/5.0 (Android) nsCloud-android/%1$s</string>
 
     <!-- URLs and flags related -->
     <string name="server_url"></string>

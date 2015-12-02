@@ -407,7 +407,7 @@
     <string name="auth_wtf_reenter_URL">Unexpected state; please, enter the server URL again</string>
     <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
     <eat-comment/>
-    <string name="authority">org.owncloud</string>
+    <string name="authority">org.nscloud</string>
     <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="change_password">Change password</string>
@@ -446,9 +446,9 @@
     <string name="create_dir_fail_msg">Folder could not be created</string>
     <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
     <eat-comment/>
-    <string name="data_folder">owncloud</string>
-    <string name="db_file">owncloud.db</string>
-    <string name="db_name">ownCloud</string>
+    <string name="data_folder">nscloud</string>
+    <string name="db_file">nscloud.db</string>
+    <string name="db_name">nsCloud</string>
     <string name="default_display_name_for_root_folder">NS Cloud</string>
     <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
     <eat-comment/>
@@ -517,7 +517,7 @@
     <string name="local_file_list_empty">There are no files in this folder.</string>
     <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
     <eat-comment/>
-    <string name="log_name">Owncloud_</string>
+    <string name="log_name">Nscloud_</string>
     <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="log_progress_dialog_text">Loading data…</string>
@@ -723,7 +723,7 @@
     <string name="url_app_download">"https://play.google.com/store/apps/details?id=com.owncloud.android"</string>
     <string name="url_help">http://owncloud.com/mobile/help</string>
     <string name="url_imprint"/>
-    <string name="user_agent">Mozilla/5.0 (Android) ownCloud-android/%1$s</string>
+    <string name="user_agent">Mozilla/5.0 (Android) nsCloud-android/%1$s</string>
     <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="username">Username</string>
