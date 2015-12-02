@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values-ia/strings.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values-ia/strings.xml -->
     <eat-comment/>
     <string name="action_share_file">Compartir ligamine</string>
     <string name="actionbar_mkdir">Nove dossier</string>

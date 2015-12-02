@@ -60,4 +60,4 @@
         android:text="@string/placeholder_sentence"
         android:textColor="@color/owncloud_green_lime_bright" />
 
-</RelativeLayout><!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/layout/preview_image_fragment.xml -->
+</RelativeLayout><!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/layout/preview_image_fragment.xml -->

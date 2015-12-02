@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-v21/values-v21.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-v21/values-v21.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance.Material"/>
     <style name="Base.TextAppearance.AppCompat.Body1" parent="android:TextAppearance.Material.Body1"/>
@@ -255,7 +255,7 @@
         <item name="android:colorControlHighlight">?attr/colorControlHighlight</item>
         <item name="android:colorButtonNormal">?attr/colorButtonNormal</item>
     </style>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values-v21/styles.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values-v21/styles.xml -->
     <eat-comment/>
     <style name="ProgressDialogTheme" parent="ownCloud.Dialog">
 	</style>

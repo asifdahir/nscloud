@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values-ca/strings.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values-ca/strings.xml -->
     <eat-comment/>
     <string-array name="actionbar_sortby">
     <item>A-Z</item>
     <item>Més nou - Més antic</item>
   </string-array>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-ca/values-ca.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-ca/values-ca.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navega a la pàgina d\'inici"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navega cap a dalt"</string>
@@ -21,7 +21,7 @@
     <string msgid="893419373245838918" name="abc_searchview_description_voice">"Cerca per veu"</string>
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Comparteix amb"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Comparteix amb %s"</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values-ca/strings.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values-ca/strings.xml -->
     <eat-comment/>
     <string name="about_android">%1$s aplicació per Android</string>
     <string name="about_title">Quant a</string>

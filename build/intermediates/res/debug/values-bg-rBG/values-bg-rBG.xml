@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values-bg-rBG/strings.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values-bg-rBG/strings.xml -->
     <eat-comment/>
     <string-array name="actionbar_sortby">
     <item>А-Я</item>

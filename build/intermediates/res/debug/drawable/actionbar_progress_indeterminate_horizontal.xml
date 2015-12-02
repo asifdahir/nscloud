@@ -11,4 +11,4 @@
     <item android:drawable="@drawable/owncloud_progressbar_indeterminate_7" android:duration="50" />
     <item android:drawable="@drawable/owncloud_progressbar_indeterminate_8" android:duration="50" />
 </animation-list>
-<!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/drawable/actionbar_progress_indeterminate_horizontal.xml -->
+<!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/drawable/actionbar_progress_indeterminate_horizontal.xml -->

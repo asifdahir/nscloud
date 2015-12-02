@@ -26,4 +26,4 @@
     android:interpolator="@android:anim/linear_interpolator"
     android:duration="1000"
     android:startOffset="0"/>
-<!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/drawable/progress_small.xml -->
+<!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/drawable/progress_small.xml -->

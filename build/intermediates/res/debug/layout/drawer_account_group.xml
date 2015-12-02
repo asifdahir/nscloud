@@ -18,4 +18,4 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center_horizontal"
-    android:orientation="vertical"></RadioGroup><!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/layout/drawer_account_group.xml -->
+    android:orientation="vertical"></RadioGroup><!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/layout/drawer_account_group.xml -->

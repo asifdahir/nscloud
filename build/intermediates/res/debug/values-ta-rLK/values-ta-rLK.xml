@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values-ta-rLK/strings.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values-ta-rLK/strings.xml -->
     <eat-comment/>
     <string name="about_title">பற்றி</string>
     <string name="actionbar_see_details">விவரங்கள்</string>

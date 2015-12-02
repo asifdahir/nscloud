@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
     <eat-comment/>
     <string-array name="actionbar_sortby">
     	<item>A-Z</item>
@@ -8,7 +8,7 @@
     	<!-- TODO re-enable when server-side folder size calculation is available   
     	<item>Biggest - Smallest</item>  -->
     </string-array>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/drawer_resources.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/drawer_resources.xml -->
     <eat-comment/>
     <string-array name="drawer_content_descriptions">
         <!-- TODO re-enable when "Accounts" is available in Navigation Drawer-->
@@ -26,7 +26,7 @@
         <item>@string/actionbar_settings</item>
         <item>@string/actionbar_logger</item>
     </string-array>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -39,21 +39,21 @@
     <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
     <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
     <eat-comment/>
     <bool name="feedback_enabled">true</bool>
     <bool name="help_enabled">true</bool>
     <bool name="imprint_enabled">false</bool>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/bools.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/bools.xml -->
     <eat-comment/>
     <bool name="large_land_layout">false</bool>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
     <eat-comment/>
     <bool name="multiaccount_support">true</bool>
     <bool name="recommend_enabled">true</bool>
     <bool name="show_server_url_input">true</bool>
     <bool name="show_welcome_link">false</bool>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
@@ -61,21 +61,21 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
     <eat-comment/>
     <color name="actionbar_end_color">@color/primary</color>
     <color name="actionbar_start_color">@color/primary</color>
     <color name="background_color">#F7F7F7</color>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="background_floating_material_dark">#ff424242</color>
     <color name="background_floating_material_light">#ffeeeeee</color>
     <color name="background_material_dark">#ff303030</color>
     <color name="background_material_light">#ffeeeeee</color>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/colors.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/colors.xml -->
     <eat-comment/>
     <color name="black">#000000</color>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
@@ -85,25 +85,25 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
     <eat-comment/>
     <color name="button_text_color">#000000</color>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/colors.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/colors.xml -->
     <eat-comment/>
     <color name="color_accent">@color/owncloud_green_lime_accent</color>
     <color name="dark_background_text_color">#EEEEEE</color>
     <color name="dialog_list_item">#1F1F1F</color>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/colors.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/colors.xml -->
     <eat-comment/>
     <color name="drawerMenuTextColor">#000000</color>
     <color name="filelist_icon_backgorund">#DDDDDD</color>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
@@ -111,26 +111,26 @@
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
     <color name="link_text_material_dark">@color/material_deep_teal_200</color>
     <color name="link_text_material_light">@color/material_deep_teal_500</color>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/colors.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/colors.xml -->
     <eat-comment/>
     <color name="list_divider_background">#fff0f0f0</color>
     <color name="list_item_lastmod_and_filesize_text">#989898</color>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
     <eat-comment/>
     <color name="login_background_color">#FFFFFF</color>
     <color name="login_logo_background_color">#FFFFFF</color>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/colors.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/colors.xml -->
     <eat-comment/>
     <color name="login_text_color">#757575</color>
     <color name="login_text_hint_color">#757575</color>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
     <color name="material_deep_teal_200">#ff80cbc4</color>
     <color name="material_deep_teal_500">#ff009688</color>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/colors.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/colors.xml -->
     <eat-comment/>
     <color name="owncloud_blue_dark_transparent">#40162233</color>
     <color name="owncloud_blue_transparent">#201D2D44</color>
@@ -140,7 +140,7 @@
     <color name="primary">@color/owncloud_green_lime</color>
     <color name="primary_button_color">@color/owncloud_green_lime_accent</color>
     <color name="primary_dark">#689F38</color>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_dark_material_dark">#ff000000</color>
     <color name="primary_dark_material_light">#ff757575</color>
@@ -152,26 +152,26 @@
     <color name="primary_text_disabled_material_light">#39000000</color>
     <color name="ripple_material_dark">#4dffffff</color>
     <color name="ripple_material_light">#1f000000</color>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/colors.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/colors.xml -->
     <eat-comment/>
     <color name="secondary_button_color">#D6D7D7</color>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/styles.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/styles.xml -->
     <eat-comment/>
     <color name="setup_text_hint">#777777</color>
     <color name="setup_text_typed">#000000</color>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/colors.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/colors.xml -->
     <eat-comment/>
     <color name="textColor">#303030</color>
     <color name="transparent">#00000000</color>
@@ -202,7 +202,7 @@
     <declare-styleable name="Toolbar"><attr format="reference" name="titleTextAppearance"/><attr format="reference" name="subtitleTextAppearance"/><attr name="title"/><attr name="subtitle"/><attr name="android:gravity"/><attr format="dimension" name="titleMargins"/><attr format="dimension" name="titleMarginStart"/><attr format="dimension" name="titleMarginEnd"/><attr format="dimension" name="titleMarginTop"/><attr format="dimension" name="titleMarginBottom"/><attr name="contentInsetStart"/><attr name="contentInsetEnd"/><attr name="contentInsetLeft"/><attr name="contentInsetRight"/><attr format="dimension" name="maxButtonHeight"/><attr format="reference" name="collapseIcon"/><attr format="string" name="collapseContentDescription"/><attr name="popupTheme"/><attr format="reference" name="navigationIcon"/><attr format="string" name="navigationContentDescription"/><attr name="android:minHeight"/></declare-styleable>
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/><attr format="reference" name="theme"/><attr name="android:theme"/><attr format="color" name="backgroundTint"/><attr name="backgroundTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -264,11 +264,11 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/dims.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/dims.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">@dimen/standard_padding</dimen>
     <dimen name="activity_vertical_margin">@dimen/standard_padding</dimen>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
@@ -276,23 +276,23 @@
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/dims.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/dims.xml -->
     <eat-comment/>
     <dimen name="file_icon_size">32dp</dimen>
     <dimen name="file_icon_size_grid">128dp</dimen>
     <dimen name="nav_drawer_width">260dp</dimen>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/dims.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/dims.xml -->
     <eat-comment/>
     <dimen name="standard_margin">16dp</dimen>
     <dimen name="standard_padding">16dp</dimen>
     <dimen name="two_line_primary_text_size">16sp</dimen>
     <dimen name="two_line_secondary_text_size">14sp</dimen>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <item name="action_bar_activity_content" type="id"/>
@@ -326,15 +326,15 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="about_android">%1$s Android App</string>
     <string name="about_title">About</string>
     <string name="about_version">version %1$s</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
     <eat-comment/>
     <string name="account_type">owncloud</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_share_file">Share link</string>
     <string name="action_unshare_file">Unshare link</string>
@@ -353,10 +353,10 @@
     <string name="actionbar_upload_from_apps">Content from other apps</string>
     <string name="activity_chooser_send_file_title">Send</string>
     <string name="activity_chooser_title">Send link to …</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
     <eat-comment/>
     <string name="app_name">NS Cloud</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="auth_account_does_not_exist">Account does not exist in the device yet</string>
     <string name="auth_account_not_new">An account for the same user and server already exists in the device</string>
@@ -376,11 +376,11 @@
     <string name="auth_host_url">Server address https://…</string>
     <string name="auth_incorrect_address_title">Malformed URL</string>
     <string name="auth_incorrect_path_title">Server instance not found</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
     <eat-comment/>
     <string name="auth_method_oauth2">off</string>
     <string name="auth_method_saml_web_sso">off</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="auth_no_net_conn_title">No network connection</string>
     <string name="auth_nossl_plain_ok_title">Secure connection unavailable.</string>
@@ -405,10 +405,10 @@
     <string name="auth_username">Username</string>
     <string name="auth_wrong_connection_title">Couldn\'t establish connection</string>
     <string name="auth_wtf_reenter_URL">Unexpected state; please, enter the server URL again</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
     <eat-comment/>
     <string name="authority">org.nscloud</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="change_password">Change password</string>
     <string name="clipboard_text_copied">Copied to clipboard</string>
@@ -444,13 +444,13 @@
     <string name="copy_link">Copy link</string>
     <string name="create_account">Create account</string>
     <string name="create_dir_fail_msg">Folder could not be created</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
     <eat-comment/>
     <string name="data_folder">nscloud</string>
     <string name="db_file">nscloud.db</string>
     <string name="db_name">nsCloud</string>
     <string name="default_display_name_for_root_folder">NS Cloud</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="delete_account">Delete account</string>
     <string name="download_folder_failed_content">Download of %1$s folder could not be completed</string>
@@ -515,21 +515,21 @@
     <string name="instant_video_upload_on_wifi">Upload videos via WiFi only</string>
     <string name="list_layout">List Layout</string>
     <string name="local_file_list_empty">There are no files in this folder.</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
     <eat-comment/>
     <string name="log_name">Nscloud_</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="log_progress_dialog_text">Loading data…</string>
     <string name="log_send_history_button">Send History</string>
     <string name="log_send_mail_subject">%1$s Android app logs</string>
     <string name="log_send_no_mail_app">No app for sending logs found. Install mail app!</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
     <eat-comment/>
     <string name="mail_feedback">"mailto:apps@owncloud.com"</string>
     <string name="mail_logger"/>
     <string name="mail_recommend">"mailto:"</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="media_err_invalid_progressive_playback">Media file cannot be streamed</string>
     <string name="media_err_io">Media file could not be read</string>
@@ -558,7 +558,7 @@
     <string name="network_error_socket_exception">An error occurred while connecting with the server.</string>
     <string name="network_error_socket_timeout_exception">An error occurred while waiting for the server, the operation couldn\'t have been done</string>
     <string name="network_host_not_available">The operation couldn\'t be completed, server is unavailable</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/oauth2_configuration.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/oauth2_configuration.xml -->
     <eat-comment/>
     <string name="oauth2_client_id">com.owncloud.android</string>
     <string name="oauth2_client_secret"/>
@@ -569,7 +569,7 @@
     <string name="oauth2_scope">owncloud</string>
     <string name="oauth2_url_endpoint_access">http://oauth2.authorization.server.org/paht/to/endporint/for/access/token</string>
     <string name="oauth2_url_endpoint_auth">http://oauth2.authorization.server.org/paht/to/endpoint/for/authorization</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="oauth_check_onoff">Login with oAuth2</string>
     <string name="oauth_login_connection">Connecting to oAuth2 server…</string>
@@ -626,18 +626,18 @@
     <string name="saml_authentication_required_text">Authentication required</string>
     <string name="saml_authentication_wrong_pass">Wrong password</string>
     <string name="saml_subject_token">\"%1$s\" has been shared with you</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
     <eat-comment/>
     <string name="send_files_to_other_apps">on</string>
     <string name="server_url"/>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="setup_btn_connect">Connect</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
     <eat-comment/>
     <string name="share_api_link"/>
     <string name="share_feature">on</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="share_link_empty_password">You must enter a password</string>
     <string name="share_link_file_error">An error occurred while trying to share this file or folder</string>
@@ -671,10 +671,10 @@
     <string name="ssl_validator_reason_cert_not_trusted">- The server certificate is not trusted</string>
     <string name="ssl_validator_reason_cert_not_yet_valid">- The server certificate valid dates are in the future</string>
     <string name="ssl_validator_reason_hostname_not_verified">- The URL does not match the hostname in the certificate</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="subject_token">%1$s shared \"%2$s\" with you</string>
     <string name="sync_conflicts_in_favourites_content">%1$d kept-in-sync files could not be sync\'ed</string>
@@ -718,30 +718,30 @@
     <string name="uploader_wrn_no_account_title">No account found</string>
     <string name="uploader_wrn_no_content_text">No content was received. Nothing to upload.</string>
     <string name="uploader_wrn_no_content_title">No content to upload</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
     <eat-comment/>
     <string name="url_app_download">"https://play.google.com/store/apps/details?id=com.owncloud.android"</string>
     <string name="url_help">http://owncloud.com/mobile/help</string>
     <string name="url_imprint"/>
     <string name="user_agent">Mozilla/5.0 (Android) nsCloud-android/%1$s</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="username">Username</string>
     <string name="wait_a_moment">Wait a moment</string>
     <string name="wait_for_tmp_copy_from_private_storage">Copying file from private storage</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
     <eat-comment/>
     <string name="welcome_link_url">"https://owncloud.com/mobile/new"</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="with_you_subject_header">with you</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/styles.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/styles.xml -->
     <eat-comment/>
     <style name="Animations"/>
     <style name="Animations.PopDownMenu"/>
@@ -778,7 +778,7 @@
         <item name="@android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
         <item name="@android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
     </style>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -1694,7 +1694,7 @@
         <item name="android:scaleType">center</item>
         <item name="android:background">?attr/selectableItemBackground</item>
     </style>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/styles.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/styles.xml -->
     <eat-comment/>
     <style name="Button" parent="Base.Widget.AppCompat.Button">
         <item name="colorButtonNormal">@color/secondary_button_color</item>
@@ -1724,7 +1724,7 @@
         <item name="android:singleLine">true</item>
 
     </style>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
@@ -1822,7 +1822,7 @@
         <item name="android:autoCompleteTextViewStyle">@style/Widget.AppCompat.Light.AutoCompleteTextView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
     </style>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/styles.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/styles.xml -->
     <eat-comment/>
     <style name="ProgressDialogTheme" parent="ownCloud.Dialog">
         <item name="colorAccent">@color/color_accent</item>
@@ -1831,7 +1831,7 @@
         <item name="android:windowBackground">@color/transparent</item>
         <item name="android:windowTitleBackgroundStyle">@drawable/process_dialog_background</item>
     </style>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <style name="RtlOverlay.DialogWindowTitle.AppCompat" parent="Base.DialogWindowTitle.AppCompat">
     </style>
@@ -1967,7 +1967,7 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/styles.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/styles.xml -->
     <eat-comment/>
     <style name="Theme.ownCloud" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/Theme.ownCloud.Widget.ActionBar</item>
@@ -1982,13 +1982,13 @@
         <item name="colorControlActivated">@color/primary_dark</item>
         <item name="colorControlHighlight">@color/color_accent</item>
     </style>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/versioned_styles.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/versioned_styles.xml -->
     <eat-comment/>
     <style name="Theme.ownCloud.ButtonStyle" parent="@android:style/Widget.Button">
 		<item name="android:background">@android:drawable/btn_default</item>
 		<item name="android:textColor">@color/button_text_color</item>
 	</style>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/styles.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/styles.xml -->
     <eat-comment/>
     <style name="Theme.ownCloud.Dialog" parent="style/Theme.AppCompat.Light.Dialog.Alert">
         <item name="windowNoTitle">false</item>
@@ -2011,17 +2011,17 @@
         <!-- setting a fixed width as follows results in narrow buttons with line breaks, but of course this is not a solution -->
         <!-- <item name="android:width">100dp</item> -->
     </style>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/versioned_styles.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/versioned_styles.xml -->
     <eat-comment/>
     <style name="Theme.ownCloud.DropDownStyle" parent="style/Widget.AppCompat.Spinner.DropDown.ActionBar">
 		<!--<item name="android:background">@drawable/spinner_inner</item>-->
 	</style>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/styles.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/styles.xml -->
     <eat-comment/>
     <style name="Theme.ownCloud.Fullscreen" parent="style/Theme.AppCompat">
         <item name="android:windowFullscreen">true</item>
     </style>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/versioned_styles.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/versioned_styles.xml -->
     <eat-comment/>
     <style name="Theme.ownCloud.IndeterminateStyle" parent="style/Widget.AppCompat.ProgressBar">
 	    <!--<item name="android:indeterminateDrawable">@drawable/abs__progress_medium_holo</item>-->
@@ -2035,7 +2035,7 @@
 		<item name="android:textSize">18sp</item>
         <item name="android:textStyle">bold</item>
 	</style>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/styles.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/styles.xml -->
     <eat-comment/>
     <style name="Theme.ownCloud.Overlay" parent="style/Theme.ownCloud">
         <item name="android:actionBarStyle">@style/Theme.ownCloud.Overlay.ActionBar</item>
@@ -2076,7 +2076,7 @@
     <style name="Theme.ownCloud.noActionBar.Login" parent="Theme.ownCloud.noActionBar">
         <item name="colorAccent">@color/white</item>
     </style>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
@@ -2173,7 +2173,7 @@
     <style name="Widget.AppCompat.TextView.SpinnerItem" parent="Base.Widget.AppCompat.TextView.SpinnerItem"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="RtlOverlay.Widget.AppCompat.Toolbar.Button.Navigation"/>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values/styles.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/styles.xml -->
     <eat-comment/>
     <style name="Widget.ownCloud.TopProgressBar" parent="style/Widget.AppCompat.ProgressBar.Horizontal">
         <item name="android:progressDrawable">@drawable/actionbar_progress_horizontal</item>

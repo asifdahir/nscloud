@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values-bn-rIN/strings.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values-bn-rIN/strings.xml -->
     <eat-comment/>
     <string name="about_android">%1$s অ্যানড্রয়েড অ্যাপ</string>
     <string name="about_version">সংস্করণ %1$s </string>

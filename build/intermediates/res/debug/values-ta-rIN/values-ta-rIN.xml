@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-ta-rIN/values-ta-rIN.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-ta-rIN/values-ta-rIN.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"முகப்பிற்கு வழிசெலுத்து"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"மேலே வழிசெலுத்து"</string>
@@ -15,7 +15,7 @@
     <string msgid="893419373245838918" name="abc_searchview_description_voice">"குரல் தேடல்"</string>
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"இதனுடன் பகிர்"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s உடன் பகிர்"</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/nsCloud/res/values-ta-rIN/strings.xml -->
+    <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values-ta-rIN/strings.xml -->
     <eat-comment/>
     <string name="about_android">%1$s ஆன்றாஇட் மென்பொருள்</string>
     <string name="about_version">பதிப்பு எண் %1$s</string>
