@@ -1,21 +1,20 @@
 /**
- *   ownCloud Android client application
+ * ownCloud Android client application
  *
- *   @author David A. Velasco
- *   Copyright (C) 2015 ownCloud Inc.
- *
- *   This program is free software: you can redistribute it and/or modify
- *   it under the terms of the GNU General Public License version 2,
- *   as published by the Free Software Foundation.
- *
- *   This program is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU General Public License for more details.
- *
- *   You should have received a copy of the GNU General Public License
- *   along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *
+ * @author David A. Velasco
+ * Copyright (C) 2015 ownCloud Inc.
+ * <p/>
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2,
+ * as published by the Free Software Foundation.
+ * <p/>
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * <p/>
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
 package com.nscloud.android.operations;
@@ -39,6 +38,8 @@ import android.content.Context;
 import android.net.Uri;
 
 import com.nscloud.android.MainApp;
+import com.nscloud.android.crypto.Common;
+import com.nscloud.android.crypto.Manager;
 import com.nscloud.android.datamodel.OCFile;
 import com.nscloud.android.files.services.FileUploader;
 import com.nscloud.lib.common.NsCloudClient;
@@ -79,19 +80,20 @@ public class UploadFileOperation extends RemoteOperation {
     private Set<OnDatatransferProgressListener> mDataTransferListeners = new HashSet<OnDatatransferProgressListener>();
     private AtomicBoolean mCancellationRequested = new AtomicBoolean(false);
     private Context mContext;
-    
+    private Manager mManager;
+
     private UploadRemoteFileOperation mUploadOperation;
 
     protected RequestEntity mEntity = null;
 
-    
-    public UploadFileOperation( Account account,
-                                OCFile file,
-                                boolean chunked,
-                                boolean isInstant, 
-                                boolean forceOverwrite,
-                                int localBehaviour, 
-                                Context context) {
+
+    public UploadFileOperation(Account account,
+                               OCFile file,
+                               boolean chunked,
+                               boolean isInstant,
+                               boolean forceOverwrite,
+                               int localBehaviour,
+                               Context context) {
         if (account == null)
             throw new IllegalArgumentException("Illegal NULL account in UploadFileOperation " +
                     "creation");
@@ -170,22 +172,22 @@ public class UploadFileOperation extends RemoteOperation {
     public Set<OnDatatransferProgressListener> getDataTransferListeners() {
         return mDataTransferListeners;
     }
-    
-    public void addDatatransferProgressListener (OnDatatransferProgressListener listener) {
+
+    public void addDatatransferProgressListener(OnDatatransferProgressListener listener) {
         synchronized (mDataTransferListeners) {
             mDataTransferListeners.add(listener);
         }
         if (mEntity != null) {
-            ((ProgressiveDataTransferer)mEntity).addDatatransferProgressListener(listener);
+            ((ProgressiveDataTransferer) mEntity).addDatatransferProgressListener(listener);
         }
     }
-    
+
     public void removeDatatransferProgressListener(OnDatatransferProgressListener listener) {
         synchronized (mDataTransferListeners) {
             mDataTransferListeners.remove(listener);
         }
         if (mEntity != null) {
-            ((ProgressiveDataTransferer)mEntity).removeDatatransferProgressListener(listener);
+            ((ProgressiveDataTransferer) mEntity).removeDatatransferProgressListener(listener);
         }
     }
 
@@ -206,10 +208,10 @@ public class UploadFileOperation extends RemoteOperation {
             nameCheckPassed = true;
 
             String expectedPath = FileStorageUtils.getDefaultSavePathFor(mAccount.name, mFile); // /
-                                                                                                // not
-                                                                                                // before
-                                                                                                // getAvailableRemotePath()
-                                                                                                // !!!
+            // not
+            // before
+            // getAvailableRemotePath()
+            // !!!
             expectedFile = new File(expectedPath);
 
             // check location of local file; if not the expected, copy to a
@@ -220,7 +222,7 @@ public class UploadFileOperation extends RemoteOperation {
                 if (FileStorageUtils.getUsableSpace(mAccount.name) < originalFile.length()) {
                     result = new RemoteOperationResult(ResultCode.LOCAL_STORAGE_FULL);
                     return result; // error condition when the file should be
-                                   // copied
+                    // copied
 
                 } else {
 
@@ -263,10 +265,10 @@ public class UploadFileOperation extends RemoteOperation {
 
                         } else {
                             if (!mOriginalStoragePath.equals(temporalPath)) { // preventing
-                                                                          // weird
-                                                                          // but
-                                                                          // possible
-                                                                          // situation
+                                // weird
+                                // but
+                                // possible
+                                // situation
 
                                 in = new FileInputStream(originalFile);
                                 out = new FileOutputStream(temporalFile);
@@ -307,17 +309,51 @@ public class UploadFileOperation extends RemoteOperation {
             }
             localCopyPassed = (result == null);
 
+            mManager = new Manager(Manager.KEY_CLIENT, Manager.SALT);
+            InputStream in = new FileInputStream(temporalFile);
+            String encryptedTemporalFile = temporalFile.getAbsolutePath() + "_enc";
+            OutputStream out = new FileOutputStream(encryptedTemporalFile);
+            byte[] buf;
+            byte[] outBuff;
+            int len;
+
+            String temporalFileFullName = temporalFile.getAbsolutePath();
+            File file = new File(temporalFileFullName);
+            int temporalFileLength = (int) file.length();
+            buf = new byte[temporalFileLength];
+            len = in.read(buf, 0, buf.length);
+            if (len == temporalFileLength) {
+                outBuff = mManager.encrypt(buf);
+
+                out.write(outBuff);
+                out.close();
+                in.close();
+
+                File from = new File(temporalFileFullName);
+                File to = new File(temporalFileFullName + "tmp");
+                Common.copy(from, to);
+                from.delete();
+
+                from = new File(encryptedTemporalFile);
+                to = new File(temporalFileFullName);
+                from.renameTo(to);
+
+                to = new File(temporalFileFullName + "tmp");
+                to.delete();
+            }
+
+
             /// perform the upload
-            if ( mChunked &&
+            if (mChunked &&
                     (new File(mFile.getStoragePath())).length() >
-                            ChunkedUploadRemoteFileOperation.CHUNK_SIZE ) {
+                            ChunkedUploadRemoteFileOperation.CHUNK_SIZE) {
                 mUploadOperation = new ChunkedUploadRemoteFileOperation(mFile.getStoragePath(),
                         mFile.getRemotePath(), mFile.getMimetype());
             } else {
                 mUploadOperation = new UploadRemoteFileOperation(mFile.getStoragePath(),
                         mFile.getRemotePath(), mFile.getMimetype());
             }
-            Iterator <OnDatatransferProgressListener> listener = mDataTransferListeners.iterator();
+            Iterator<OnDatatransferProgressListener> listener = mDataTransferListeners.iterator();
             while (listener.hasNext()) {
                 mUploadOperation.addDatatransferProgressListener(listener.next());
             }
@@ -419,7 +455,7 @@ public class UploadFileOperation extends RemoteOperation {
     /**
      * Checks if remotePath does not exist in the server and returns it, or adds
      * a suffix to it in order to avoid the server file is overwritten.
-     * 
+     *
      * @param wc
      * @param remotePath
      * @return
@@ -442,8 +478,7 @@ public class UploadFileOperation extends RemoteOperation {
             suffix = " (" + count + ")";
             if (pos >= 0) {
                 check = existsFile(wc, remotePath + suffix + "." + extension);
-            }
-            else {
+            } else {
                 check = existsFile(wc, remotePath + suffix);
             }
             count++;
@@ -456,13 +491,13 @@ public class UploadFileOperation extends RemoteOperation {
         }
     }
 
-    private boolean existsFile(NsCloudClient client, String remotePath){
+    private boolean existsFile(NsCloudClient client, String remotePath) {
         ExistenceCheckRemoteOperation existsOperation =
                 new ExistenceCheckRemoteOperation(remotePath, mContext, false);
         RemoteOperationResult result = existsOperation.execute(client);
         return result.isSuccess();
     }
-    
+
     public void cancel() {
         mCancellationRequested = new AtomicBoolean(true);
         if (mUploadOperation != null) {

@@ -8,8 +8,10 @@ import javax.crypto.spec.SecretKeySpec;
  * Created by Administrator on 11/20/2015.
  */
 public class Manager {
-    public static final String keyServer = "44444444444444444444444444444444";
-    public static final String keyClient = "88888888888888888888888888888888";
+    public static final String KEY_SERVER = "44444444444444444444444444444444";
+    public static final String KEY_CLIENT = "88888888888888888888888888888888";
+    public static final byte[] SALT = new byte[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+    public static final int BLOCK_SIZE = 16;
 
     byte[] key = null;
     byte[] iv = null;
