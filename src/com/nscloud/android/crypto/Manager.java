@@ -1,4 +1,4 @@
-package com.nscloud.lib.crypto;
+package com.nscloud.android.crypto;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;

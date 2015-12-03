@@ -32,9 +32,6 @@ import com.nscloud.android.datamodel.ThumbnailsCacheManager;
 import com.nscloud.lib.common.NsCloudClientManagerFactory;
 import com.nscloud.lib.common.NsCloudClientManagerFactory.Policy;
 import com.nscloud.lib.common.utils.Log_OC;
-import com.nscloud.lib.crypto.Manager;
-
-import java.io.UnsupportedEncodingException;
 
 
 /**
