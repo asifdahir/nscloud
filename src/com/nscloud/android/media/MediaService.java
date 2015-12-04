@@ -408,7 +408,7 @@ public class MediaService extends Service implements OnCompletionListener, OnPre
 
     
     /**
-     * Requests the audio focus to the Audio Manager 
+     * Requests the audio focus to the Audio CryptoManager
      */
     private void tryToGetAudioFocus() {
         if (mAudioFocus != AudioFocus.FOCUS 

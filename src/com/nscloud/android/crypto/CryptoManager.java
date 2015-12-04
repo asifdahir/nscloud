@@ -7,7 +7,7 @@ import javax.crypto.spec.SecretKeySpec;
 /**
  * Created by Administrator on 11/20/2015.
  */
-public class Manager {
+public class CryptoManager {
     public static final String KEY_SERVER = "44444444444444444444444444444444";
     public static final String KEY_CLIENT = "88888888888888888888888888888888";
     public static final byte[] SALT = new byte[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
@@ -16,7 +16,7 @@ public class Manager {
     byte[] key = null;
     byte[] iv = null;
 
-    public Manager(String password, byte[] salt) {
+    public CryptoManager(String password, byte[] salt) {
         try {
             key = password.getBytes("UTF-8");
             iv = salt;

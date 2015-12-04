@@ -52,7 +52,7 @@ import com.nscloud.android.ui.adapter.DiskLruImageCache;
 import com.nscloud.android.utils.BitmapUtils;
 
 /**
- * Manager for concurrent access to thumbnails cache.
+ * CryptoManager for concurrent access to thumbnails cache.
  */
 public class ThumbnailsCacheManager {
 

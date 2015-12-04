@@ -39,7 +39,6 @@ import android.net.Uri;
 
 import com.nscloud.android.MainApp;
 import com.nscloud.android.crypto.Common;
-import com.nscloud.android.crypto.Manager;
 import com.nscloud.android.datamodel.OCFile;
 import com.nscloud.android.files.services.FileUploader;
 import com.nscloud.lib.common.NsCloudClient;
@@ -309,7 +308,7 @@ public class UploadFileOperation extends RemoteOperation {
             localCopyPassed = (result == null);
 
 
-            Common.replacePlainFileWithEncrypted(temporalFile.getAbsolutePath());
+            Common.encryptAndReplacePlainFile(temporalFile.getAbsolutePath());
 
 
             /// perform the upload

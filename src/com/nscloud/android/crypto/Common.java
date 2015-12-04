@@ -1,7 +1,5 @@
 package com.nscloud.android.crypto;
 
-import com.nscloud.android.utils.FileStorageUtils;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -49,8 +47,8 @@ public class Common {
         return Common.getFileNameWithoutExtension(file) + append + "." + Common.getFileExtension(file);
     }
 
-    public static void replacePlainFileWithEncrypted(String plainFilePath) {
-        Manager manager;
+    public static void encryptAndReplacePlainFile(String plainFilePath) {
+        CryptoManager cryptoManager;
         File fileFrom;
         File fileTo;
         File file;
@@ -67,7 +65,7 @@ public class Common {
             encryptedFilePath = Common.appendStringToFileName(plainFilePath, "_enc");
             tmpFilePath = Common.appendStringToFileName(plainFilePath, "_tmp");
 
-            manager = new Manager(Manager.KEY_CLIENT, Manager.SALT);
+            cryptoManager = new CryptoManager(CryptoManager.KEY_CLIENT, CryptoManager.SALT);
 
             inputStream = new FileInputStream(plainFilePath);
             outputStream = new FileOutputStream(encryptedFilePath);
@@ -77,7 +75,7 @@ public class Common {
             buf = new byte[plainFileSize];
             dataReadSize = inputStream.read(buf, 0, buf.length);
             if (dataReadSize == plainFileSize) {
-                outBuff = manager.encrypt(buf);
+                outBuff = cryptoManager.encrypt(buf);
 
                 outputStream.write(outBuff);
                 outputStream.close();
@@ -101,8 +99,8 @@ public class Common {
         }
     }
 
-    public static void replaceEncryptedFileWithPlain(String encryptedFilePath) {
-        Manager manager;
+    public static void decryptAndReplaceEncryptedFile(String encryptedFilePath) {
+        CryptoManager cryptoManager;
         File fileFrom;
         File fileTo;
         File file;
@@ -119,7 +117,7 @@ public class Common {
             decryptedFilePath = Common.appendStringToFileName(encryptedFilePath, "_dec");
             tmpFilePath = Common.appendStringToFileName(encryptedFilePath, "_tmp");
 
-            manager = new Manager(Manager.KEY_CLIENT, Manager.SALT);
+            cryptoManager = new CryptoManager(CryptoManager.KEY_CLIENT, CryptoManager.SALT);
 
             inputStream = new FileInputStream(encryptedFilePath);
             outputStream = new FileOutputStream(decryptedFilePath);
@@ -129,7 +127,7 @@ public class Common {
             buf = new byte[encryptedFileSize];
             dataReadSize = inputStream.read(buf, 0, buf.length);
             if (dataReadSize == encryptedFileSize) {
-                outBuff = manager.decrypt(buf);
+                outBuff = cryptoManager.decrypt(buf);
 
                 outputStream.write(outBuff);
                 outputStream.close();

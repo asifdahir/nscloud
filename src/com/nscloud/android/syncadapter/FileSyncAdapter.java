@@ -164,13 +164,13 @@ public class FileSyncAdapter extends AbstractOwnCloudSyncAdapter {
         try {
             this.initClientForCurrentAccount();
         } catch (IOException e) {
-            /// the account is unknown for the Synchronization Manager, unreachable this context,
+            /// the account is unknown for the Synchronization CryptoManager, unreachable this context,
             // or can not be authenticated; don't try this again
             mSyncResult.tooManyRetries = true;
             notifyFailedSynchronization();
             return;
         } catch (AccountsException e) {
-            /// the account is unknown for the Synchronization Manager, unreachable this context,
+            /// the account is unknown for the Synchronization CryptoManager, unreachable this context,
             // or can not be authenticated; don't try this again
             mSyncResult.tooManyRetries = true;
             notifyFailedSynchronization();

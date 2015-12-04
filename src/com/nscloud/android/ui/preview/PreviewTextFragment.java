@@ -156,7 +156,7 @@ public class PreviewTextFragment extends FileFragment {
             }
             final String location = (String) params[0];
 
-            Common.replaceEncryptedFileWithPlain(location);
+            Common.decryptAndReplaceEncryptedFile(location);
 
             FileInputStream inputStream = null;
             Scanner sc = null;

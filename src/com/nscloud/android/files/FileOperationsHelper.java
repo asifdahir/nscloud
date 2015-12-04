@@ -33,11 +33,9 @@ import android.widget.Toast;
 
 import com.nscloud.android.R;
 import com.nscloud.android.authentication.AccountUtils;
-import com.nscloud.android.crypto.Manager;
 import com.nscloud.android.datamodel.OCFile;
 import com.nscloud.android.files.services.FileDownloader.FileDownloaderBinder;
 import com.nscloud.android.files.services.FileUploader.FileUploaderBinder;
-import com.nscloud.android.utils.FileStorageUtils;
 import com.nscloud.lib.common.network.WebdavUtils;
 import com.nscloud.lib.common.utils.Log_OC;
 import com.nscloud.lib.resources.status.NsCloudVersion;
@@ -48,11 +46,6 @@ import com.nscloud.android.ui.dialog.ShareLinkToDialog;
 
 import org.apache.http.protocol.HTTP;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.util.List;
 
 /**
