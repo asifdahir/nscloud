@@ -1,5 +1,8 @@
 package com.nscloud.android.crypto;
 
+import android.content.DialogInterface;
+import android.support.v7.app.AlertDialog;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

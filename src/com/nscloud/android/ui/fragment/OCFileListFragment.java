@@ -1,31 +1,32 @@
 /**
- *   ownCloud Android client application
+ * ownCloud Android client application
  *
- *   @author Bartek Przybylski
- *   @author masensio
- *   @author David A. Velasco
- *   Copyright (C) 2011  Bartek Przybylski
- *   Copyright (C) 2015 ownCloud Inc.
- *
- *   This program is free software: you can redistribute it and/or modify
- *   it under the terms of the GNU General Public License version 2,
- *   as published by the Free Software Foundation.
- *
- *   This program is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU General Public License for more details.
- *
- *   You should have received a copy of the GNU General Public License
- *   along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *
+ * @author Bartek Przybylski
+ * @author masensio
+ * @author David A. Velasco
+ * Copyright (C) 2011  Bartek Przybylski
+ * Copyright (C) 2015 ownCloud Inc.
+ * <p/>
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2,
+ * as published by the Free Software Foundation.
+ * <p/>
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * <p/>
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 package com.nscloud.android.ui.fragment;
 
 import android.app.Activity;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.widget.SwipeRefreshLayout;
+import android.support.v7.app.AlertDialog;
 import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -37,6 +38,7 @@ import android.widget.PopupMenu;
 
 import com.nscloud.android.R;
 import com.nscloud.android.authentication.AccountUtils;
+import com.nscloud.android.crypto.Common;
 import com.nscloud.android.datamodel.FileDataStorageManager;
 import com.nscloud.android.datamodel.OCFile;
 import com.nscloud.android.files.FileMenuFilter;
@@ -60,11 +62,11 @@ import java.io.File;
 
 /**
  * A Fragment that lists all files and folders in a given path.
- *
+ * <p/>
  * TODO refactor to get rid of direct dependency on FileDisplayActivity
  */
 public class OCFileListFragment extends ExtendedListFragment implements FileActionsDialogFragment.FileActionsDialogFragmentListener {
-    
+
     private static final String TAG = OCFileListFragment.class.getSimpleName();
 
     private static final String MY_PACKAGE = OCFileListFragment.class.getPackage() != null ?
@@ -80,11 +82,10 @@ public class OCFileListFragment extends ExtendedListFragment implements FileActi
     private OCFile mFile = null;
     private FileListListAdapter mAdapter;
     private boolean mJustFolders;
-    
+
     private OCFile mTargetFile;
-    
-   
-    
+
+
     /**
      * {@inheritDoc}
      */
@@ -101,7 +102,7 @@ public class OCFileListFragment extends ExtendedListFragment implements FileActi
         }
         try {
             setOnRefreshListener((OnEnforceableRefreshListener) activity);
-            
+
         } catch (ClassCastException e) {
             throw new ClassCastException(activity.toString() + " must implement " +
                     SwipeRefreshLayout.OnRefreshListener.class.getSimpleName());
@@ -144,7 +145,7 @@ public class OCFileListFragment extends ExtendedListFragment implements FileActi
         setListAdapter(mAdapter);
 
         registerLongClickListener();
-  }
+    }
 
     private void registerLongClickListener() {
         getListView().setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
@@ -159,7 +160,7 @@ public class OCFileListFragment extends ExtendedListFragment implements FileActi
 
     private void showFileAction(int fileIndex) {
         Bundle args = getArguments();
-        PopupMenu pm = new PopupMenu(getActivity(),null);
+        PopupMenu pm = new PopupMenu(getActivity(), null);
         Menu menu = pm.getMenu();
 
         boolean allowContextualActions =
@@ -183,7 +184,7 @@ public class OCFileListFragment extends ExtendedListFragment implements FileActi
 
             /// TODO break this direct dependency on FileDisplayActivity... if possible
             MenuItem item = menu.findItem(R.id.action_open_file_with);
-            FileFragment frag = ((FileDisplayActivity)getActivity()).getSecondFragment();
+            FileFragment frag = ((FileDisplayActivity) getActivity()).getSecondFragment();
             if (frag != null && frag instanceof FileDetailFragment &&
                     frag.getFile().getFileId() == targetFile.getFileId()) {
                 item = menu.findItem(R.id.action_see_details);
@@ -210,7 +211,7 @@ public class OCFileListFragment extends ExtendedListFragment implements FileActi
 
     /**
      * Call this, when the user presses the up button.
-     *
+     * <p/>
      * Tries to move up the current folder one level. If the parent folder was removed from the
      * database, it continues browsing up until finding an existing folders.
      * <p/>
@@ -257,7 +258,7 @@ public class OCFileListFragment extends ExtendedListFragment implements FileActi
 
     @Override
     public void onItemClick(AdapterView<?> l, View v, int position, long id) {
-        OCFile file = (OCFile) mAdapter.getItem(position);
+        final OCFile file = (OCFile) mAdapter.getItem(position);
         if (file != null) {
             if (file.isFolder()) {
                 // update state and view of this fragment
@@ -269,23 +270,40 @@ public class OCFileListFragment extends ExtendedListFragment implements FileActi
                 saveIndexAndTopPosition(position);
 
             } else { /// Click on a file
-                if (PreviewImageFragment.canBePreviewed(file)) {
-                    // preview image - it handles the download, if needed
-                    ((FileDisplayActivity)mContainerActivity).startImagePreview(file);
-                } else if (PreviewTextFragment.canBePreviewed(file)){
-                    ((FileDisplayActivity)mContainerActivity).startTextPreview(file);
-                } else if (file.isDown()) {
-                    if (PreviewMediaFragment.canBePreviewed(file)) {
-                        // media preview
-                        ((FileDisplayActivity) mContainerActivity).startMediaPreview(file, 0, true);
-                    } else {
-                        mContainerActivity.getFileOperationsHelper().openFile(file);
-                    }
 
-                } else {
-                    // automatic download, preview on finish
-                    ((FileDisplayActivity) mContainerActivity).startDownloadForPreview(file);
-                }
+                AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+                builder
+                        .setMessage("File will be decrypted")
+                        .setTitle("Decrypt file")
+                        .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                if (PreviewImageFragment.canBePreviewed(file)) {
+                                    // preview image - it handles the download, if needed
+                                    ((FileDisplayActivity) mContainerActivity).startImagePreview(file);
+                                } else if (PreviewTextFragment.canBePreviewed(file)) {
+                                    ((FileDisplayActivity) mContainerActivity).startTextPreview(file);
+                                } else if (file.isDown()) {
+                                    if (PreviewMediaFragment.canBePreviewed(file)) {
+                                        // media preview
+                                        ((FileDisplayActivity) mContainerActivity).startMediaPreview(file, 0, true);
+                                    } else {
+                                        mContainerActivity.getFileOperationsHelper().openFile(file);
+                                    }
+
+                                } else {
+                                    // automatic download, preview on finish
+                                    ((FileDisplayActivity) mContainerActivity).startDownloadForPreview(file);
+                                }
+                            }
+                        })
+                        .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+
+                            }
+                        })
+                        .show();
 
             }
 
@@ -312,18 +330,18 @@ public class OCFileListFragment extends ExtendedListFragment implements FileActi
 
             if (mContainerActivity.getStorageManager() != null) {
                 FileMenuFilter mf = new FileMenuFilter(
-                    targetFile,
-                    mContainerActivity.getStorageManager().getAccount(),
-                    mContainerActivity,
-                    getActivity()
+                        targetFile,
+                        mContainerActivity.getStorageManager().getAccount(),
+                        mContainerActivity,
+                        getActivity()
                 );
                 mf.filter(menu);
             }
-                 
+
             /// TODO break this direct dependency on FileDisplayActivity... if possible
             MenuItem item = menu.findItem(R.id.action_open_file_with);
-            FileFragment frag = ((FileDisplayActivity)getActivity()).getSecondFragment();
-            if (frag != null && frag instanceof FileDetailFragment && 
+            FileFragment frag = ((FileDisplayActivity) getActivity()).getSecondFragment();
+            if (frag != null && frag instanceof FileDetailFragment &&
                     frag.getFile().getFileId() == targetFile.getFileId()) {
                 item = menu.findItem(R.id.action_see_details);
                 if (item != null) {
@@ -415,15 +433,15 @@ public class OCFileListFragment extends ExtendedListFragment implements FileActi
                 return false;
         }
     }
-    
+
     /**
      * {@inhericDoc}
      */
     @Override
-    public boolean onContextItemSelected (MenuItem item) {
+    public boolean onContextItemSelected(MenuItem item) {
         AdapterContextMenuInfo info = (AdapterContextMenuInfo) item.getMenuInfo();
         boolean matched = onFileActionChosen(item.getItemId(), ((AdapterContextMenuInfo) item.getMenuInfo()).position);
-        if(!matched) {
+        if (!matched) {
             return super.onContextItemSelected(item);
         } else {
             return matched;
@@ -444,13 +462,13 @@ public class OCFileListFragment extends ExtendedListFragment implements FileActi
     /**
      * Calls {@link OCFileListFragment#listDirectory(OCFile)} with a null parameter
      */
-    public void listDirectory(/*boolean onlyOnDevice*/){
+    public void listDirectory(/*boolean onlyOnDevice*/) {
         listDirectory(null);
         // TODO Enable when "On Device" is recovered ?
         // listDirectory(null, onlyOnDevice);
     }
-    
-    public void refreshDirectory(){
+
+    public void refreshDirectory() {
         // TODO Enable when "On Device" is recovered ?
         listDirectory(getCurrentFile()/*, MainApp.getOnlyOnDevice()*/);
     }
@@ -500,7 +518,7 @@ public class OCFileListFragment extends ExtendedListFragment implements FileActi
             int filesCount = 0, foldersCount = 0, imagesCount = 0;
             int count = mAdapter.getCount();
             OCFile file;
-            for (int i=0; i < count ; i++) {
+            for (int i = 0; i < count; i++) {
                 file = (OCFile) mAdapter.getItem(i);
                 if (file.isFolder()) {
                     foldersCount++;
@@ -519,9 +537,9 @@ public class OCFileListFragment extends ExtendedListFragment implements FileActi
 
             // decide grid vs list view
             NsCloudVersion version = AccountUtils.getServerVersion(
-                    ((FileActivity)mContainerActivity).getAccount());
+                    ((FileActivity) mContainerActivity).getAccount());
             if (version != null && version.supportsRemoteThumbnails() &&
-                imagesCount > 0 && imagesCount == filesCount) {
+                    imagesCount > 0 && imagesCount == filesCount) {
                 switchToGridView();
                 registerLongClickListener();
             } else {
