@@ -77,47 +77,7 @@ public class FileOperationsHelper {
     public void openFile(OCFile file) {
         if (file != null) {
             String storagePath = file.getStoragePath();
-
-            try {
-                String temporalPath = FileStorageUtils.getTemporalPath("nsuser1@testowncloud-localdomain/owncloud") + file.getRemotePath();
-
-                Manager manager = new Manager(Manager.KEY_CLIENT, Manager.SALT);
-                InputStream in = new FileInputStream(storagePath);
-                OutputStream out = new FileOutputStream(temporalPath);
-                byte[] buf = new byte[1024];
-                byte[] outBuff;
-                int len;
-                while ((len = in.read(buf)) > 0) {
-                    out.write(buf, 0, len);
-                }
-                out.close();
-                in.close();
-
-                File fileTemporal = new File(temporalPath);
-                int temporalFileLength = (int) fileTemporal.length();
-                buf = new byte[temporalFileLength];
-                in = new FileInputStream(temporalPath);
-                out = new FileOutputStream(temporalPath + "dec");
-                len = in.read(buf, 0, buf.length);
-                if (len == temporalFileLength) {
-                    outBuff = manager.decrypt(buf);
-
-                    out.write(outBuff);
-
-                    String str = new String(outBuff, "UTF-8");
-                    String ss = str;
-                }
-                out.close();
-                in.close();
-
-                storagePath = temporalPath + "dec";
-
-            } catch (Exception ex) {
-
-            }
-
             String encodedStoragePath = WebdavUtils.encodePath(storagePath);
-
 
             Intent intentForSavedMimeType = new Intent(Intent.ACTION_VIEW);
             intentForSavedMimeType.setDataAndType(Uri.parse("file://" + encodedStoragePath), file.getMimetype());

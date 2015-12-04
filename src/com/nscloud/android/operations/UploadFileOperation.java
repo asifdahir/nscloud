@@ -80,7 +80,6 @@ public class UploadFileOperation extends RemoteOperation {
     private Set<OnDatatransferProgressListener> mDataTransferListeners = new HashSet<OnDatatransferProgressListener>();
     private AtomicBoolean mCancellationRequested = new AtomicBoolean(false);
     private Context mContext;
-    private Manager mManager;
 
     private UploadRemoteFileOperation mUploadOperation;
 
@@ -309,38 +308,8 @@ public class UploadFileOperation extends RemoteOperation {
             }
             localCopyPassed = (result == null);
 
-            mManager = new Manager(Manager.KEY_CLIENT, Manager.SALT);
-            InputStream in = new FileInputStream(temporalFile);
-            String encryptedTemporalFile = temporalFile.getAbsolutePath() + "_enc";
-            OutputStream out = new FileOutputStream(encryptedTemporalFile);
-            byte[] buf;
-            byte[] outBuff;
-            int len;
 
-            String temporalFileFullName = temporalFile.getAbsolutePath();
-            File file = new File(temporalFileFullName);
-            int temporalFileLength = (int) file.length();
-            buf = new byte[temporalFileLength];
-            len = in.read(buf, 0, buf.length);
-            if (len == temporalFileLength) {
-                outBuff = mManager.encrypt(buf);
-
-                out.write(outBuff);
-                out.close();
-                in.close();
-
-                File from = new File(temporalFileFullName);
-                File to = new File(temporalFileFullName + "tmp");
-                Common.copy(from, to);
-                from.delete();
-
-                from = new File(encryptedTemporalFile);
-                to = new File(temporalFileFullName);
-                from.renameTo(to);
-
-                to = new File(temporalFileFullName + "tmp");
-                to.delete();
-            }
+            Common.replacePlainFileWithEncrypted(temporalFile.getAbsolutePath());
 
 
             /// perform the upload

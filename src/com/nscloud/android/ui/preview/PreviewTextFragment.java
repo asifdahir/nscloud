@@ -15,6 +15,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.nscloud.android.R;
+import com.nscloud.android.crypto.Common;
 import com.nscloud.android.datamodel.OCFile;
 import com.nscloud.android.files.FileMenuFilter;
 import com.nscloud.lib.common.utils.Log_OC;
@@ -154,6 +155,8 @@ public class PreviewTextFragment extends FileFragment {
                 throw new IllegalArgumentException("The parameter to " + TextLoadAsyncTask.class.getName() + " must be (1) the file location");
             }
             final String location = (String) params[0];
+
+            Common.replaceEncryptedFileWithPlain(location);
 
             FileInputStream inputStream = null;
             Scanner sc = null;

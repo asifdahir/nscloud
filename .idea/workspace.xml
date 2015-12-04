@@ -10,16 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2e7bf6a-e0a2-400d-b4de-69d77f5d1e01" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/files/FileOperationsHelper.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/files/FileOperationsHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/MainApp$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/MainApp$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/MainApp.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/MainApp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/ui/preview/PreviewTextFragment$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/ui/preview/PreviewTextFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/ui/preview/PreviewTextFragment$TextLoadAsyncTask.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/ui/preview/PreviewTextFragment$TextLoadAsyncTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/ui/preview/PreviewTextFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/ui/preview/PreviewTextFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/operations/UploadFileOperation.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/operations/UploadFileOperation.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/nsCloud-debug-unaligned.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/nsCloud-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/nsCloud-debug.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/nsCloud-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java" afterPath="$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nscloud/android/files/FileOperationsHelper.java" afterPath="$PROJECT_DIR$/src/com/nscloud/android/files/FileOperationsHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nscloud/android/crypto/Manager.java" afterPath="$PROJECT_DIR$/src/com/nscloud/android/crypto/Manager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nscloud/android/ui/preview/PreviewTextFragment.java" afterPath="$PROJECT_DIR$/src/com/nscloud/android/ui/preview/PreviewTextFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nscloud/android/operations/UploadFileOperation.java" afterPath="$PROJECT_DIR$/src/com/nscloud/android/operations/UploadFileOperation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -42,24 +43,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UploadFileOperation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UploadFileOperation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/operations/UploadFileOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8338983">
-              <caret line="331" column="54" selection-start-line="331" selection-start-column="54" selection-end-line="331" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="311" column="0" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
               <folding>
                 <element signature="docComment;class#UploadFileOperation#0" expanded="false" />
                 <element signature="method#UploadFileOperation#0;class#UploadFileOperation#0" expanded="false" />
-                <element signature="e#5653#5654#0" expanded="true" />
-                <element signature="e#5687#5688#0" expanded="true" />
                 <element signature="method#getDataTransferListeners#0;class#UploadFileOperation#0" expanded="false" />
                 <element signature="method#addDatatransferProgressListener#0;class#UploadFileOperation#0" expanded="false" />
-                <element signature="e#7309#7315#0" expanded="false" />
-                <element signature="e#7461#7524#0" expanded="false" />
-                <element signature="e#9866#9879#0" expanded="false" />
-                <element signature="e#13987#14053#0" expanded="false" />
-                <element signature="e#14477#14513#0" expanded="false" />
-                <element signature="e#15232#15280#0" expanded="false" />
+                <element signature="e#7279#7285#0" expanded="false" />
+                <element signature="e#7431#7494#0" expanded="false" />
+                <element signature="e#9836#9849#0" expanded="false" />
+                <element signature="e#12754#12820#0" expanded="false" />
+                <element signature="e#13244#13280#0" expanded="false" />
+                <element signature="e#13999#14047#0" expanded="false" />
                 <element signature="method#createNewOCFile#0;class#UploadFileOperation#0" expanded="false" />
                 <element signature="docComment;method#getAvailableRemotePath#0;class#UploadFileOperation#0" expanded="false" />
                 <element signature="method#getAvailableRemotePath#0;class#UploadFileOperation#0" expanded="false" />
@@ -74,9 +73,146 @@
         <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/files/FileOperationsHelper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileDisplayActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/activity/FileDisplayActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="114" column="26" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="26" />
               <folding>
-                <element signature="e#6812#6851#0" expanded="true" />
+                <element signature="docComment;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onCreate#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="e#6958#6969#0" expanded="false" />
+                <element signature="e#7810#7828#0" expanded="false" />
+                <element signature="e#8661#8689#0" expanded="false" />
+                <element signature="method#onStart#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onDestroy#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;method#onAccountSet#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onAccountSet#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="e#9745#9824#0" expanded="false" />
+                <element signature="e#10098#10168#0" expanded="false" />
+                <element signature="method#createMinFragments#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#initFragmentsWithFile#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="e#12628#12672#0" expanded="false" />
+                <element signature="method#chooseInitialSecondFragment#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;method#setSecondFragment#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#setSecondFragment#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#updateFragmentsVisibility#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#getListOfFilesFragment#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#getSecondFragment#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#cleanSecondFragment#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#refreshListOfFilesFragment#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="e#17711#17757#0" expanded="false" />
+                <element signature="method#refreshSecondFragment#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onPrepareOptionsMenu#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onCreateOptionsMenu#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onOptionsItemSelected#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#startSynchronization#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;method#onActivityResult#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="e#25603#25645#0" expanded="false" />
+                <element signature="method#onActivityResult#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#requestMultipleUpload#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#requestSimpleUpload#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;method#requestMoveOperation#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#requestMoveOperation#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;method#requestCopyOperation#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#requestCopyOperation#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onBackPressed#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onSaveInstanceState#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="e#33926#33996#0" expanded="false" />
+                <element signature="e#34355#34428#0" expanded="false" />
+                <element signature="method#onResume#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="e#35535#35617#0" expanded="false" />
+                <element signature="method#onPause#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="class#SyncBroadcastReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;method#onReceive#0;class#SyncBroadcastReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onReceive#0;class#SyncBroadcastReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="e#39319#39383#0" expanded="false" />
+                <element signature="e#39998#40044#0" expanded="false" />
+                <element signature="e#42954#43034#0" expanded="false" />
+                <element signature="e#43599#43674#0" expanded="false" />
+                <element signature="docComment;method#setBackgroundText#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#setBackgroundText#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;class#UploadFinishReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="class#UploadFinishReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;method#onReceive#0;class#UploadFinishReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onReceive#0;class#UploadFinishReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;class#DownloadFinishReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="class#DownloadFinishReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onReceive#0;class#DownloadFinishReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#isDescendant#0;class#DownloadFinishReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#isAscendant#0;class#DownloadFinishReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#isSameAccount#0;class#DownloadFinishReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#browseToRoot#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="e#51075#51121#0" expanded="false" />
+                <element signature="docComment;method#onBrowsedDownTo#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onBrowsedDownTo#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;method#showDetails#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#showDetails#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#updateActionBarTitleAndHomeButton#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#newTransferenceServiceConnection#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;class#ListServiceConnection#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="class#ListServiceConnection#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onServiceConnected#0;class#ListServiceConnection#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="e#53959#54009#0" expanded="false" />
+                <element signature="e#54237#54283#0" expanded="false" />
+                <element signature="method#onServiceDisconnected#0;class#ListServiceConnection#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onFailedSavingCertificate#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onCancelCertificate#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;method#onRemoteOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onRemoteOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onCreateShareOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onUnshareLinkOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#refreshShowDetails#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;method#onRemoveFileOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onRemoveFileOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;method#onMoveFileOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onMoveFileOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;method#onCopyFileOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onCopyFileOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;method#onRenameFileOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onRenameFileOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onSynchronizeFileOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;method#onCreateFolderOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onCreateFolderOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;method#onTransferStateChanged#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#onTransferStateChanged#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#requestForDownload#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#getCurrentDir#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#startSyncFolderOperation#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;method#showUntrustedCertDialog#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#showUntrustedCertDialog#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#requestForDownload#1;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#sendDownloadedFile#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;method#startDownloadForSending#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#startDownloadForSending#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;method#startImagePreview#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#startImagePreview#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;method#startMediaPreview#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#startMediaPreview#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;method#startTextPreview#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#startTextPreview#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="docComment;method#startDownloadForPreview#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#startDownloadForPreview#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#cancelTransference#0;class#FileDisplayActivity#0" expanded="false" />
+                <element signature="method#refreshList#0;class#FileDisplayActivity#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PreviewTextFragment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/preview/PreviewTextFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3322091">
+              <caret line="121" column="23" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="23" />
+              <folding>
+                <element signature="method#onCreate#0;class#PreviewTextFragment#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -86,9 +222,12 @@
         <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#copyFile#0;class#Common#0" expanded="false" />
+                <element signature="method#getFileExtension#0;class#Common#0" expanded="false" />
+                <element signature="method#getFileNameWithoutExtension#0;class#Common#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -1640,9 +1779,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/nscloud/android/crypto/Manager.java" />
-        <option value="$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java" />
         <option value="$PROJECT_DIR$/src/com/nscloud/android/operations/UploadFileOperation.java" />
         <option value="$PROJECT_DIR$/src/com/nscloud/android/files/FileOperationsHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/nscloud/android/ui/preview/PreviewTextFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java" />
       </list>
     </option>
   </component>
@@ -1684,10 +1824,9 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1782,54 +1921,6 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nsCloud" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nsCloud" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nsCloud" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nsCloud" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="crypto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1846,10 +1937,11 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="recentsLimit" value="5" />
@@ -2056,27 +2148,32 @@
       <option name="project" value="LOCAL" />
       <updated>1449119173904</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&#10;&#10;-mac">
+      <created>1449132013550</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1449132013550</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1520" height="1038" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949933" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29718006" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29609543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264642" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3264642" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.50270635" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329718" sideWeight="0.49729365" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.49729365" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.50270635" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2091,6 +2188,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949933" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2110,7 +2208,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="first from mac" />
     <MESSAGE value="crypto move to nsCloud from nsCloudLibrary&#10;&#10;-mac" />
-    <option name="LAST_COMMIT_MESSAGE" value="crypto move to nsCloud from nsCloudLibrary&#10;&#10;-mac" />
+    <MESSAGE value="&#10;&#10;-mac" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;&#10;-mac" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2135,207 +2234,106 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/nscloud/android/operations/UploadFileOperation.java</url>
-          <line>309</line>
+          <line>308</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/nscloud/android/files/FileOperationsHelper.java</url>
-          <line>93</line>
+          <line>78</line>
           <properties />
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/nscloud/android/files/FileOperationsHelper.java</url>
-          <line>81</line>
+          <url>file://$PROJECT_DIR$/src/com/nscloud/android/ui/fragment/OCFileListFragment.java</url>
+          <line>281</line>
           <properties />
-          <option name="timeStamp" value="15" />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/nscloud/android/ui/fragment/OCFileListFragment.java</url>
+          <line>348</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/nscloud/android/ui/preview/PreviewTextFragment.java</url>
+          <line>385</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/nscloud/android/ui/fragment/FileDetailFragment.java</url>
+          <line>234</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/nscloud/android/ui/preview/PreviewTextFragment.java</url>
+          <line>153</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java</url>
+          <line>118</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java</url>
+          <line>131</line>
+          <properties />
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nscloud-library/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/operations/UploadFileOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nscloud-library/src/com/nscloud/lib/common/operations/RemoteOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.201342">
-          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-22/android.jar!/android/os/Handler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3547619">
-          <caret line="88" column="25" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/services/OperationsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6208054">
-          <caret line="604" column="46" selection-start-line="604" selection-start-column="46" selection-end-line="604" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/operations/SynchronizeFileOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="238" column="42" selection-start-line="238" selection-start-column="42" selection-end-line="238" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-httpclient/commons-httpclient/3.1/c6d6ea83d0cf16d3ed9c1b7e600fa0f60b9d3159/commons-httpclient-3.1-sources.jar!/org/apache/commons/httpclient/HttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33273703">
-          <caret line="317" column="15" selection-start-line="317" selection-start-column="15" selection-end-line="317" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nscloud-library/src/com/nscloud/lib/common/NsCloudClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.588551">
-          <caret line="221" column="40" selection-start-line="221" selection-start-column="40" selection-end-line="221" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/uploader_list_item_layout.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/upload_files_layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6132075">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/utils/CopyTmpFileAsyncTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-22/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36567163">
-          <caret line="700" column="16" selection-start-line="700" selection-start-column="16" selection-end-line="700" selection-end-column="16" />
+          <caret line="346" column="0" selection-start-line="346" selection-start-column="0" selection-end-line="346" selection-end-column="0" />
           <folding>
-            <element signature="e#20325#20326#0" expanded="true" />
-            <element signature="e#20376#20377#0" expanded="true" />
+            <element signature="docComment;class#UploadFileOperation#0" expanded="false" />
+            <element signature="method#UploadFileOperation#0;class#UploadFileOperation#0" expanded="false" />
+            <element signature="method#getDataTransferListeners#0;class#UploadFileOperation#0" expanded="false" />
+            <element signature="method#addDatatransferProgressListener#0;class#UploadFileOperation#0" expanded="false" />
+            <element signature="e#7279#7285#0" expanded="false" />
+            <element signature="e#7431#7494#0" expanded="false" />
+            <element signature="e#9836#9849#0" expanded="false" />
+            <element signature="e#12754#12820#0" expanded="false" />
+            <element signature="e#13244#13280#0" expanded="false" />
+            <element signature="e#13999#14047#0" expanded="false" />
+            <element signature="method#createNewOCFile#0;class#UploadFileOperation#0" expanded="false" />
+            <element signature="docComment;method#getAvailableRemotePath#0;class#UploadFileOperation#0" expanded="false" />
+            <element signature="method#getAvailableRemotePath#0;class#UploadFileOperation#0" expanded="false" />
+            <element signature="method#existsFile#0;class#UploadFileOperation#0" expanded="false" />
+            <element signature="method#cancel#0;class#UploadFileOperation#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/uploader_layout.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/files/FileOperationsHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.551723">
-          <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nscloud-library/src/com/nscloud/lib/resources/files/UploadRemoteFileOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3728814">
-          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/activity/Uploader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15100671">
-          <caret line="354" column="18" selection-start-line="354" selection-start-column="18" selection-end-line="354" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38135594">
-          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-22/android.jar!/java/io/FileOutputStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19589552">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/activity/FileActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29516995">
-          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/activity/HookActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.107334524">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.259259">
-          <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/activity/FileDisplayActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15100671">
-          <caret line="1486" column="75" selection-start-line="1486" selection-start-column="75" selection-end-line="1486" selection-end-column="75" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="345" column="46" selection-start-line="345" selection-start-column="46" selection-end-line="345" selection-end-column="46" />
           <folding>
             <element signature="docComment;class#FileDisplayActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#FileDisplayActivity#0" expanded="false" />
@@ -2363,8 +2361,12 @@
             <element signature="method#refreshSecondFragment#0;class#FileDisplayActivity#0" expanded="false" />
             <element signature="method#onPrepareOptionsMenu#0;class#FileDisplayActivity#0" expanded="false" />
             <element signature="method#onCreateOptionsMenu#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#startSynchronization#0;class#FileDisplayActivity#0" expanded="false" />
             <element signature="docComment;method#onActivityResult#0;class#FileDisplayActivity#0" expanded="false" />
             <element signature="e#25603#25645#0" expanded="false" />
+            <element signature="method#onActivityResult#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#requestMultipleUpload#0;class#FileDisplayActivity#0" expanded="false" />
             <element signature="method#requestSimpleUpload#0;class#FileDisplayActivity#0" expanded="false" />
             <element signature="docComment;method#requestMoveOperation#0;class#FileDisplayActivity#0" expanded="false" />
             <element signature="method#requestMoveOperation#0;class#FileDisplayActivity#0" expanded="false" />
@@ -2453,22 +2455,182 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/fragment/FileDetailFragment.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/preview/PreviewTextFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="234" column="66" selection-start-line="234" selection-start-column="66" selection-end-line="234" selection-end-column="66" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#onCreate#0;class#PreviewTextFragment#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#copyFile#0;class#Common#0" expanded="false" />
+            <element signature="method#getFileExtension#0;class#Common#0" expanded="false" />
+            <element signature="method#getFileNameWithoutExtension#0;class#Common#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nscloud-library/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nscloud-library/src/com/nscloud/lib/common/operations/RemoteOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.201342">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-22/android.jar!/android/os/Handler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3547619">
+          <caret line="88" column="25" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/services/OperationsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6208054">
+          <caret line="604" column="46" selection-start-line="604" selection-start-column="46" selection-end-line="604" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/datamodel/OCFile.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/operations/SynchronizeFileOperation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33225808">
-          <caret line="201" column="18" selection-start-line="201" selection-start-column="18" selection-end-line="201" selection-end-column="18" />
-          <folding>
-            <element signature="e#6088#6089#0" expanded="true" />
-            <element signature="e#6121#6122#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="238" column="42" selection-start-line="238" selection-start-column="42" selection-end-line="238" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-httpclient/commons-httpclient/3.1/c6d6ea83d0cf16d3ed9c1b7e600fa0f60b9d3159/commons-httpclient-3.1-sources.jar!/org/apache/commons/httpclient/HttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33273703">
+          <caret line="317" column="15" selection-start-line="317" selection-start-column="15" selection-end-line="317" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nscloud-library/src/com/nscloud/lib/common/NsCloudClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.588551">
+          <caret line="221" column="40" selection-start-line="221" selection-start-column="40" selection-end-line="221" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/uploader_list_item_layout.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/upload_files_layout.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6132075">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/utils/CopyTmpFileAsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-22/android.jar!/android/app/Activity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36567163">
+          <caret line="700" column="16" selection-start-line="700" selection-start-column="16" selection-end-line="700" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/uploader_layout.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.551723">
+          <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nscloud-library/src/com/nscloud/lib/resources/files/UploadRemoteFileOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3728814">
+          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/activity/Uploader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15100671">
+          <caret line="354" column="18" selection-start-line="354" selection-start-column="18" selection-end-line="354" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38135594">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-22/android.jar!/java/io/FileOutputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19589552">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/activity/FileActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29516995">
+          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.259259">
+          <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -2476,7 +2638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.6666666">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2504,12 +2665,248 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/fragment/FileDetailFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="234" column="61" selection-start-line="234" selection-start-column="61" selection-end-line="234" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/fragment/OCFileListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34738618">
+          <caret line="348" column="61" selection-start-line="348" selection-start-column="61" selection-end-line="348" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/activity/OnEnforceableRefreshListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22428331">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/activity/HookActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12816189">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/providers/FileContentProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.2816189">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#FileContentProvider#0" expanded="false" />
+            <element signature="initializer##0;class#FileContentProvider#0" expanded="false" />
+            <element signature="initializer##1;class#FileContentProvider#0" expanded="false" />
+            <element signature="method#delete#0;class#FileContentProvider#0" expanded="false" />
+            <element signature="method#delete#1;class#FileContentProvider#0" expanded="false" />
+            <element signature="method#getType#0;class#FileContentProvider#0" expanded="false" />
+            <element signature="method#insert#0;class#FileContentProvider#0" expanded="false" />
+            <element signature="method#insert#1;class#FileContentProvider#0" expanded="false" />
+            <element signature="e#13464#13530#0" expanded="false" />
+            <element signature="e#15439#15505#0" expanded="false" />
+            <element signature="method#updateFilesTableAccordingToShareInsertion#0;class#FileContentProvider#0" expanded="false" />
+            <element signature="method#onCreate#0;class#FileContentProvider#0" expanded="false" />
+            <element signature="method#query#0;class#FileContentProvider#0" expanded="false" />
+            <element signature="method#query#1;class#FileContentProvider#0" expanded="false" />
+            <element signature="method#update#0;class#FileContentProvider#0" expanded="false" />
+            <element signature="method#update#1;class#FileContentProvider#0" expanded="false" />
+            <element signature="method#applyBatch#0;class#FileContentProvider#0" expanded="false" />
+            <element signature="class#DataBaseHelper#0;class#FileContentProvider#0" expanded="false" />
+            <element signature="method#DataBaseHelper#0;class#DataBaseHelper#0;class#FileContentProvider#0" expanded="false" />
+            <element signature="method#onCreate#0;class#DataBaseHelper#0;class#FileContentProvider#0" expanded="false" />
+            <element signature="method#onUpgrade#0;class#DataBaseHelper#0;class#FileContentProvider#0" expanded="false" />
+            <element signature="docComment;method#updateAccountName#0;class#FileContentProvider#0" expanded="false" />
+            <element signature="method#updateAccountName#0;class#FileContentProvider#0" expanded="false" />
+            <element signature="e#38816#38917#0" expanded="false" />
+            <element signature="docComment;method#updateDownloadedFiles#0;class#FileContentProvider#0" expanded="false" />
+            <element signature="method#updateDownloadedFiles#0;class#FileContentProvider#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/operations/UploadFileOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="311" column="0" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#UploadFileOperation#0" expanded="false" />
+            <element signature="method#UploadFileOperation#0;class#UploadFileOperation#0" expanded="false" />
+            <element signature="method#getDataTransferListeners#0;class#UploadFileOperation#0" expanded="false" />
+            <element signature="method#addDatatransferProgressListener#0;class#UploadFileOperation#0" expanded="false" />
+            <element signature="e#7279#7285#0" expanded="false" />
+            <element signature="e#7431#7494#0" expanded="false" />
+            <element signature="e#9836#9849#0" expanded="false" />
+            <element signature="e#12754#12820#0" expanded="false" />
+            <element signature="e#13244#13280#0" expanded="false" />
+            <element signature="e#13999#14047#0" expanded="false" />
+            <element signature="method#createNewOCFile#0;class#UploadFileOperation#0" expanded="false" />
+            <element signature="docComment;method#getAvailableRemotePath#0;class#UploadFileOperation#0" expanded="false" />
+            <element signature="method#getAvailableRemotePath#0;class#UploadFileOperation#0" expanded="false" />
+            <element signature="method#existsFile#0;class#UploadFileOperation#0" expanded="false" />
+            <element signature="method#cancel#0;class#UploadFileOperation#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/files/FileOperationsHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/activity/FileDisplayActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="26" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="26" />
           <folding>
-            <element signature="e#6812#6851#0" expanded="true" />
+            <element signature="docComment;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onCreate#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="e#6958#6969#0" expanded="false" />
+            <element signature="e#7810#7828#0" expanded="false" />
+            <element signature="e#8661#8689#0" expanded="false" />
+            <element signature="method#onStart#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;method#onAccountSet#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onAccountSet#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="e#9745#9824#0" expanded="false" />
+            <element signature="e#10098#10168#0" expanded="false" />
+            <element signature="method#createMinFragments#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#initFragmentsWithFile#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="e#12628#12672#0" expanded="false" />
+            <element signature="method#chooseInitialSecondFragment#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;method#setSecondFragment#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#setSecondFragment#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#updateFragmentsVisibility#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#getListOfFilesFragment#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#getSecondFragment#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#cleanSecondFragment#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#refreshListOfFilesFragment#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="e#17711#17757#0" expanded="false" />
+            <element signature="method#refreshSecondFragment#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onPrepareOptionsMenu#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onCreateOptionsMenu#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#startSynchronization#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;method#onActivityResult#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="e#25603#25645#0" expanded="false" />
+            <element signature="method#onActivityResult#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#requestMultipleUpload#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#requestSimpleUpload#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;method#requestMoveOperation#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#requestMoveOperation#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;method#requestCopyOperation#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#requestCopyOperation#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onSaveInstanceState#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="e#33926#33996#0" expanded="false" />
+            <element signature="e#34355#34428#0" expanded="false" />
+            <element signature="method#onResume#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="e#35535#35617#0" expanded="false" />
+            <element signature="method#onPause#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="class#SyncBroadcastReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;method#onReceive#0;class#SyncBroadcastReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onReceive#0;class#SyncBroadcastReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="e#39319#39383#0" expanded="false" />
+            <element signature="e#39998#40044#0" expanded="false" />
+            <element signature="e#42954#43034#0" expanded="false" />
+            <element signature="e#43599#43674#0" expanded="false" />
+            <element signature="docComment;method#setBackgroundText#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#setBackgroundText#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;class#UploadFinishReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="class#UploadFinishReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;method#onReceive#0;class#UploadFinishReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onReceive#0;class#UploadFinishReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;class#DownloadFinishReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="class#DownloadFinishReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onReceive#0;class#DownloadFinishReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#isDescendant#0;class#DownloadFinishReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#isAscendant#0;class#DownloadFinishReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#isSameAccount#0;class#DownloadFinishReceiver#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#browseToRoot#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="e#51075#51121#0" expanded="false" />
+            <element signature="docComment;method#onBrowsedDownTo#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onBrowsedDownTo#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;method#showDetails#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#showDetails#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#updateActionBarTitleAndHomeButton#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#newTransferenceServiceConnection#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;class#ListServiceConnection#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="class#ListServiceConnection#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onServiceConnected#0;class#ListServiceConnection#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="e#53959#54009#0" expanded="false" />
+            <element signature="e#54237#54283#0" expanded="false" />
+            <element signature="method#onServiceDisconnected#0;class#ListServiceConnection#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onFailedSavingCertificate#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onCancelCertificate#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;method#onRemoteOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onRemoteOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onCreateShareOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onUnshareLinkOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#refreshShowDetails#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;method#onRemoveFileOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onRemoveFileOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;method#onMoveFileOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onMoveFileOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;method#onCopyFileOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onCopyFileOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;method#onRenameFileOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onRenameFileOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onSynchronizeFileOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;method#onCreateFolderOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onCreateFolderOperationFinish#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;method#onTransferStateChanged#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#onTransferStateChanged#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#requestForDownload#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#getCurrentDir#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#startSyncFolderOperation#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;method#showUntrustedCertDialog#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#showUntrustedCertDialog#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#requestForDownload#1;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#sendDownloadedFile#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;method#startDownloadForSending#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#startDownloadForSending#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;method#startImagePreview#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#startImagePreview#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;method#startMediaPreview#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#startMediaPreview#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;method#startTextPreview#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#startTextPreview#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="docComment;method#startDownloadForPreview#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#startDownloadForPreview#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#cancelTransference#0;class#FileDisplayActivity#0" expanded="false" />
+            <element signature="method#refreshList#0;class#FileDisplayActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/fragment/FileFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3322091">
+          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+          <folding>
+            <element signature="e#1905#1906#0" expanded="true" />
+            <element signature="e#1933#1934#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/datamodel/OCFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3322091">
+          <caret line="201" column="18" selection-start-line="201" selection-start-column="18" selection-end-line="201" selection-end-column="18" />
+          <folding>
+            <element signature="e#6088#6089#0" expanded="true" />
+            <element signature="e#6121#6122#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2517,35 +2914,22 @@
     <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#copyFile#0;class#Common#0" expanded="false" />
+            <element signature="method#getFileExtension#0;class#Common#0" expanded="false" />
+            <element signature="method#getFileNameWithoutExtension#0;class#Common#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/operations/UploadFileOperation.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/preview/PreviewTextFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8338983">
-          <caret line="331" column="54" selection-start-line="331" selection-start-column="54" selection-end-line="331" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.3322091">
+          <caret line="121" column="23" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="23" />
           <folding>
-            <element signature="docComment;class#UploadFileOperation#0" expanded="false" />
-            <element signature="method#UploadFileOperation#0;class#UploadFileOperation#0" expanded="false" />
-            <element signature="e#5653#5654#0" expanded="true" />
-            <element signature="e#5687#5688#0" expanded="true" />
-            <element signature="method#getDataTransferListeners#0;class#UploadFileOperation#0" expanded="false" />
-            <element signature="method#addDatatransferProgressListener#0;class#UploadFileOperation#0" expanded="false" />
-            <element signature="e#7309#7315#0" expanded="false" />
-            <element signature="e#7461#7524#0" expanded="false" />
-            <element signature="e#9866#9879#0" expanded="false" />
-            <element signature="e#13987#14053#0" expanded="false" />
-            <element signature="e#14477#14513#0" expanded="false" />
-            <element signature="e#15232#15280#0" expanded="false" />
-            <element signature="method#createNewOCFile#0;class#UploadFileOperation#0" expanded="false" />
-            <element signature="docComment;method#getAvailableRemotePath#0;class#UploadFileOperation#0" expanded="false" />
-            <element signature="method#getAvailableRemotePath#0;class#UploadFileOperation#0" expanded="false" />
-            <element signature="method#existsFile#0;class#UploadFileOperation#0" expanded="false" />
-            <element signature="method#cancel#0;class#UploadFileOperation#0" expanded="false" />
+            <element signature="method#onCreate#0;class#PreviewTextFragment#0" expanded="false" />
           </folding>
         </state>
       </provider>
