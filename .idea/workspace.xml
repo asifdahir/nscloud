@@ -17,16 +17,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2e7bf6a-e0a2-400d-b4de-69d77f5d1e01" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/files/FileOperationsHelper.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/files/FileOperationsHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/ui/fragment/OCFileListFragment$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/ui/fragment/OCFileListFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/ui/fragment/OCFileListFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/ui/fragment/OCFileListFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/ui/preview/PreviewTextFragment$TextLoadAsyncTask.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/ui/preview/PreviewTextFragment$TextLoadAsyncTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/operations/UploadFileOperation.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/operations/UploadFileOperation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/nsCloud-debug-unaligned.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/nsCloud-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/nsCloud-debug.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/nsCloud-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java" afterPath="$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nscloud/android/ui/fragment/OCFileListFragment.java" afterPath="$PROJECT_DIR$/src/com/nscloud/android/ui/fragment/OCFileListFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nsCloud.iws" />
@@ -77,8 +67,8 @@
       <file leaf-file-name="OCFileListFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/fragment/OCFileListFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.489533">
-              <caret line="281" column="89" selection-start-line="281" selection-start-column="89" selection-end-line="281" selection-end-column="89" />
+            <state vertical-scroll-proportion="0.52012885">
+              <caret line="282" column="51" selection-start-line="282" selection-start-column="51" selection-end-line="282" selection-end-column="51" />
               <folding>
                 <element signature="docComment;class#OCFileListFragment#0" expanded="false" />
                 <element signature="docComment;method#onAttach#0;class#OCFileListFragment#0" expanded="false" />
@@ -2081,7 +2071,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449222070664</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="crypto manager&#10;&#10;-mac">
+      <created>1449225354618</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1449225354618</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2887,6 +2883,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27628636">
           <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2910,8 +2907,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/fragment/OCFileListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.489533">
-          <caret line="281" column="89" selection-start-line="281" selection-start-column="89" selection-end-line="281" selection-end-column="89" />
+        <state vertical-scroll-proportion="0.52012885">
+          <caret line="282" column="51" selection-start-line="282" selection-start-column="51" selection-end-line="282" selection-end-column="51" />
           <folding>
             <element signature="docComment;class#OCFileListFragment#0" expanded="false" />
             <element signature="docComment;method#onAttach#0;class#OCFileListFragment#0" expanded="false" />
