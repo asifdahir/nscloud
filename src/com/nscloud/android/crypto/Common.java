@@ -68,7 +68,7 @@ public class Common {
             encryptedFilePath = Common.appendStringToFileName(plainFilePath, "_enc");
             tmpFilePath = Common.appendStringToFileName(plainFilePath, "_tmp");
 
-            cryptoManager = new CryptoManager(CryptoManager.KEY_CLIENT, CryptoManager.SALT);
+            cryptoManager = new CryptoManager(CryptoManager.getClientKey(), CryptoManager.SALT);
 
             inputStream = new FileInputStream(plainFilePath);
             outputStream = new FileOutputStream(encryptedFilePath);
@@ -120,7 +120,7 @@ public class Common {
             decryptedFilePath = Common.appendStringToFileName(encryptedFilePath, "_dec");
             tmpFilePath = Common.appendStringToFileName(encryptedFilePath, "_tmp");
 
-            cryptoManager = new CryptoManager(CryptoManager.KEY_CLIENT, CryptoManager.SALT);
+            cryptoManager = new CryptoManager(CryptoManager.getClientKey(), CryptoManager.SALT);
 
             inputStream = new FileInputStream(encryptedFilePath);
             outputStream = new FileOutputStream(decryptedFilePath);

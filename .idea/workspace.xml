@@ -16,7 +16,17 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2e7bf6a-e0a2-400d-b4de-69d77f5d1e01" name="Default" comment="">
+    <list default="true" id="a2e7bf6a-e0a2-400d-b4de-69d77f5d1e01" name="Default" comment="crypto manager&#10;&#10;-mac">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/MainApp$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/MainApp$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/MainApp.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/MainApp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/nsCloud-debug-unaligned.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/nsCloud-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/nsCloud-debug.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/nsCloud-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java" afterPath="$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nscloud/android/crypto/CryptoManager.java" afterPath="$PROJECT_DIR$/src/com/nscloud/android/crypto/CryptoManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nscloud/android/MainApp.java" afterPath="$PROJECT_DIR$/src/com/nscloud/android/MainApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nsCloud.iml" afterPath="$PROJECT_DIR$/nsCloud.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nscloud-library/nscloud-library.iml" afterPath="$PROJECT_DIR$/nscloud-library/nscloud-library.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nsCloud.iws" />
@@ -67,8 +77,8 @@
       <file leaf-file-name="OCFileListFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/fragment/OCFileListFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52012885">
-              <caret line="282" column="51" selection-start-line="282" selection-start-column="51" selection-end-line="282" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.48305085">
+              <caret line="283" column="37" selection-start-line="283" selection-start-column="37" selection-end-line="283" selection-end-column="37" />
               <folding>
                 <element signature="docComment;class#OCFileListFragment#0" expanded="false" />
                 <element signature="docComment;method#onAttach#0;class#OCFileListFragment#0" expanded="false" />
@@ -77,12 +87,16 @@
                 <element signature="docComment;method#onActivityCreated#0;class#OCFileListFragment#0" expanded="false" />
                 <element signature="method#onActivityCreated#0;class#OCFileListFragment#0" expanded="false" />
                 <element signature="method#registerLongClickListener#0;class#OCFileListFragment#0" expanded="false" />
+                <element signature="e#5402#5676#0" expanded="true" />
+                <element signature="e#5675#5676#0" expanded="true" />
                 <element signature="method#showFileAction#0;class#OCFileListFragment#0" expanded="false" />
                 <element signature="docComment;method#onSaveInstanceState#0;class#OCFileListFragment#0" expanded="false" />
                 <element signature="method#onSaveInstanceState#0;class#OCFileListFragment#0" expanded="false" />
                 <element signature="docComment;method#onBrowseUp#0;class#OCFileListFragment#0" expanded="false" />
                 <element signature="method#onBrowseUp#0;class#OCFileListFragment#0" expanded="false" />
                 <element signature="e#9880#9921#0" expanded="false" />
+                <element signature="e#10607#12061#0" expanded="true" />
+                <element signature="e#12060#12061#0" expanded="true" />
                 <element signature="docComment;method#onCreateContextMenu#0;class#OCFileListFragment#0" expanded="false" />
                 <element signature="method#onCreateContextMenu#0;class#OCFileListFragment#0" expanded="false" />
                 <element signature="docComment;method#onFileActionChosen#0;class#OCFileListFragment#0" expanded="false" />
@@ -98,6 +112,14 @@
                 <element signature="method#listDirectory#1;class#OCFileListFragment#0" expanded="false" />
                 <element signature="method#updateLayout#0;class#OCFileListFragment#0" expanded="false" />
                 <element signature="method#generateFooterText#0;class#OCFileListFragment#0" expanded="false" />
+                <element signature="e#21976#22036#0" expanded="true" />
+                <element signature="e#22105#22180#0" expanded="true" />
+                <element signature="e#22297#22355#0" expanded="true" />
+                <element signature="e#22427#22496#0" expanded="true" />
+                <element signature="e#22565#22649#0" expanded="true" />
+                <element signature="e#22765#22836#0" expanded="true" />
+                <element signature="e#22908#22990#0" expanded="true" />
+                <element signature="e#23059#23198#0" expanded="true" />
                 <element signature="method#sortByName#0;class#OCFileListFragment#0" expanded="false" />
                 <element signature="method#sortByDate#0;class#OCFileListFragment#0" expanded="false" />
                 <element signature="method#sortBySize#0;class#OCFileListFragment#0" expanded="false" />
@@ -1327,7 +1349,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5796185715000" />
+        <entry key="$PROJECT_DIR$" value="5787674004000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1667,9 +1689,10 @@
         <option value="$PROJECT_DIR$/src/com/nscloud/android/files/FileOperationsHelper.java" />
         <option value="$PROJECT_DIR$/src/com/nscloud/android/ui/preview/PreviewTextFragment.java" />
         <option value="$PROJECT_DIR$/src/com/nscloud/android/crypto/Manager.java" />
-        <option value="$PROJECT_DIR$/src/com/nscloud/android/crypto/CryptoManager.java" />
-        <option value="$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java" />
         <option value="$PROJECT_DIR$/src/com/nscloud/android/ui/fragment/OCFileListFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/nscloud/android/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java" />
+        <option value="$PROJECT_DIR$/src/com/nscloud/android/crypto/CryptoManager.java" />
       </list>
     </option>
   </component>
@@ -1685,7 +1708,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1520" />
+    <option name="width" value="1614" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -1711,6 +1734,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1747,7 +1771,7 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1823,6 +1847,32 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nsCloud" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nsCloud" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="crypto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1839,10 +1889,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scratches" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1851,8 +1900,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="cff19dbd000adce" />
-    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.last.selected" value="nsCloud" />
     <property name="android.project.structure.proportion" value="0.15" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -2077,40 +2127,46 @@
       <option name="project" value="LOCAL" />
       <updated>1449225354618</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="crypto manager&#10;&#10;-mac">
+      <created>1449464123933</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1449464123933</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1520" height="1038" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1614" height="1038" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29609543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29609543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264642" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.50270635" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.49729365" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.50270635" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.50270635" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329718" sideWeight="0.49729365" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.50270635" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22530447" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21183206" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949933" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949933" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29718006" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2188,12 +2244,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java</url>
-          <line>67</line>
-          <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java</url>
           <line>119</line>
           <properties />
           <option name="timeStamp" value="35" />
@@ -2211,7 +2261,7 @@
           <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="39" />
+      <option name="time" value="45" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2252,12 +2302,16 @@
             <element signature="docComment;method#onActivityCreated#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="method#onActivityCreated#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="method#registerLongClickListener#0;class#OCFileListFragment#0" expanded="false" />
+            <element signature="e#5402#5676#0" expanded="true" />
+            <element signature="e#5675#5676#0" expanded="true" />
             <element signature="method#showFileAction#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="docComment;method#onSaveInstanceState#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="method#onSaveInstanceState#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="docComment;method#onBrowseUp#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="method#onBrowseUp#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="e#9880#9921#0" expanded="false" />
+            <element signature="e#10607#12061#0" expanded="true" />
+            <element signature="e#12060#12061#0" expanded="true" />
             <element signature="docComment;method#onCreateContextMenu#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="method#onCreateContextMenu#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="docComment;method#onFileActionChosen#0;class#OCFileListFragment#0" expanded="false" />
@@ -2273,6 +2327,14 @@
             <element signature="method#listDirectory#1;class#OCFileListFragment#0" expanded="false" />
             <element signature="method#updateLayout#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="method#generateFooterText#0;class#OCFileListFragment#0" expanded="false" />
+            <element signature="e#21976#22036#0" expanded="true" />
+            <element signature="e#22105#22180#0" expanded="true" />
+            <element signature="e#22297#22355#0" expanded="true" />
+            <element signature="e#22427#22496#0" expanded="true" />
+            <element signature="e#22565#22649#0" expanded="true" />
+            <element signature="e#22765#22836#0" expanded="true" />
+            <element signature="e#22908#22990#0" expanded="true" />
+            <element signature="e#23059#23198#0" expanded="true" />
             <element signature="method#sortByName#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="method#sortByDate#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="method#sortBySize#0;class#OCFileListFragment#0" expanded="false" />
@@ -2294,7 +2356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2470,11 +2531,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#copyFile#0;class#Common#0" expanded="false" />
             <element signature="method#getFileExtension#0;class#Common#0" expanded="false" />
             <element signature="method#getFileNameWithoutExtension#0;class#Common#0" expanded="false" />
             <element signature="method#appendStringToFileName#0;class#Common#0" expanded="false" />
             <element signature="method#encryptAndReplacePlainFile#0;class#Common#0" expanded="false" />
+            <element signature="method#decryptAndReplaceEncryptedFile#0;class#Common#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2544,23 +2606,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/uploader_list_item_layout.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/upload_files_layout.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.6132075">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/utils/CopyTmpFileAsyncTask.java">
@@ -2578,13 +2640,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/uploader_layout.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-21.551723">
           <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nscloud-library/src/com/nscloud/lib/resources/files/UploadRemoteFileOperation.java">
@@ -2598,14 +2660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15100671">
           <caret line="354" column="18" selection-start-line="354" selection-start-column="18" selection-end-line="354" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38135594">
-          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -2686,8 +2740,8 @@
         <state vertical-scroll-proportion="0.3322091">
           <caret line="201" column="18" selection-start-line="201" selection-start-column="18" selection-end-line="201" selection-end-column="18" />
           <folding>
-            <element signature="e#6088#6089#0" expanded="true" />
-            <element signature="e#6121#6122#0" expanded="true" />
+            <element signature="e#6088#6089#0" expanded="false" />
+            <element signature="e#6121#6122#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2841,6 +2895,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-22/android.jar!/java/lang/ref/WeakReference.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2010582">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/ActionItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17002237">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-22/android.jar!/android/content/Context.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36507937">
+          <caret line="193" column="38" selection-start-line="193" selection-start-column="38" selection-end-line="193" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/preview/PreviewTextFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="141" column="41" selection-start-line="141" selection-start-column="41" selection-end-line="141" selection-end-column="41" />
+          <folding>
+            <element signature="method#onCreate#0;class#PreviewTextFragment#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/operations/UploadFileOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2865,50 +2951,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java">
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-22/android.jar!/java/math/BigInteger.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25615212">
-          <caret line="127" column="47" selection-start-line="127" selection-start-column="47" selection-end-line="127" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.36549166">
+          <caret line="163" column="18" selection-start-line="163" selection-start-column="18" selection-end-line="163" selection-end-column="18" />
+          <folding>
+            <element signature="e#3848#3849#0" expanded="true" />
+            <element signature="e#3899#3900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23728813">
+          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40380314">
+          <caret line="104" column="80" selection-start-line="104" selection-start-column="80" selection-end-line="104" selection-end-column="80" />
+          <folding>
+            <element signature="method#copyFile#0;class#Common#0" expanded="false" />
             <element signature="method#getFileExtension#0;class#Common#0" expanded="false" />
             <element signature="method#getFileNameWithoutExtension#0;class#Common#0" expanded="false" />
             <element signature="method#appendStringToFileName#0;class#Common#0" expanded="false" />
             <element signature="method#encryptAndReplacePlainFile#0;class#Common#0" expanded="false" />
+            <element signature="method#decryptAndReplaceEncryptedFile#0;class#Common#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/activity/Preferences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.042505592">
+          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/crypto/CryptoManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27628636">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-22/android.jar!/java/lang/ref/WeakReference.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2010582">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/preview/PreviewTextFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="141" column="41" selection-start-line="141" selection-start-column="41" selection-end-line="141" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.36129755">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding>
-            <element signature="method#onCreate#0;class#PreviewTextFragment#0" expanded="false" />
+            <element signature="method#getClientKey#0;class#CryptoManager#0" expanded="false" />
+            <element signature="method#setClientKey#0;class#CryptoManager#0" expanded="false" />
+            <element signature="method#CryptoManager#0;class#CryptoManager#0" expanded="false" />
+            <element signature="method#encrypt#0;class#CryptoManager#0" expanded="false" />
+            <element signature="method#decrypt#0;class#CryptoManager#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/fragment/OCFileListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52012885">
-          <caret line="282" column="51" selection-start-line="282" selection-start-column="51" selection-end-line="282" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.48305085">
+          <caret line="283" column="37" selection-start-line="283" selection-start-column="37" selection-end-line="283" selection-end-column="37" />
           <folding>
             <element signature="docComment;class#OCFileListFragment#0" expanded="false" />
             <element signature="docComment;method#onAttach#0;class#OCFileListFragment#0" expanded="false" />
@@ -2917,12 +3021,16 @@
             <element signature="docComment;method#onActivityCreated#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="method#onActivityCreated#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="method#registerLongClickListener#0;class#OCFileListFragment#0" expanded="false" />
+            <element signature="e#5402#5676#0" expanded="true" />
+            <element signature="e#5675#5676#0" expanded="true" />
             <element signature="method#showFileAction#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="docComment;method#onSaveInstanceState#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="method#onSaveInstanceState#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="docComment;method#onBrowseUp#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="method#onBrowseUp#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="e#9880#9921#0" expanded="false" />
+            <element signature="e#10607#12061#0" expanded="true" />
+            <element signature="e#12060#12061#0" expanded="true" />
             <element signature="docComment;method#onCreateContextMenu#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="method#onCreateContextMenu#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="docComment;method#onFileActionChosen#0;class#OCFileListFragment#0" expanded="false" />
@@ -2938,6 +3046,14 @@
             <element signature="method#listDirectory#1;class#OCFileListFragment#0" expanded="false" />
             <element signature="method#updateLayout#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="method#generateFooterText#0;class#OCFileListFragment#0" expanded="false" />
+            <element signature="e#21976#22036#0" expanded="true" />
+            <element signature="e#22105#22180#0" expanded="true" />
+            <element signature="e#22297#22355#0" expanded="true" />
+            <element signature="e#22427#22496#0" expanded="true" />
+            <element signature="e#22565#22649#0" expanded="true" />
+            <element signature="e#22765#22836#0" expanded="true" />
+            <element signature="e#22908#22990#0" expanded="true" />
+            <element signature="e#23059#23198#0" expanded="true" />
             <element signature="method#sortByName#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="method#sortByDate#0;class#OCFileListFragment#0" expanded="false" />
             <element signature="method#sortBySize#0;class#OCFileListFragment#0" expanded="false" />

@@ -26,8 +26,10 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import com.nscloud.android.authentication.PassCodeManager;
+import com.nscloud.android.crypto.CryptoManager;
 import com.nscloud.android.datamodel.ThumbnailsCacheManager;
 import com.nscloud.lib.common.NsCloudClientManagerFactory;
 import com.nscloud.lib.common.NsCloudClientManagerFactory.Policy;
