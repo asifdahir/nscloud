@@ -329,3 +329,9 @@ ADDED from AndroidManifest.xml:182:9
 		ADDED from AndroidManifest.xml:184:13
 	android:name
 		ADDED from AndroidManifest.xml:183:13
+activity#com.nscloud.android.ui.activity.SetKey
+ADDED from AndroidManifest.xml:186:9
+	android:label
+		ADDED from AndroidManifest.xml:188:13
+	android:name
+		ADDED from AndroidManifest.xml:187:13

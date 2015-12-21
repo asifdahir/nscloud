@@ -3,10 +3,10 @@
     <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
     <eat-comment/>
     <string-array name="actionbar_sortby">
-    	<item>A-Z</item>
-    	<item>Newest - Oldest</item>
-    	<!-- TODO re-enable when server-side folder size calculation is available   
-    	<item>Biggest - Smallest</item>  -->
+        <item>A-Z</item>
+        <item>Newest - Oldest</item>
+        <!-- TODO re-enable when server-side folder size calculation is available
+        <item>Biggest - Smallest</item>  -->
     </string-array>
     <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/drawer_resources.xml -->
     <eat-comment/>
@@ -614,6 +614,7 @@
     <string name="prefs_recommend">Recommend to a friend</string>
     <string name="prefs_remember_last_share_location">Remember share location</string>
     <string name="prefs_remember_last_upload_location_summary">Remember last share upload location</string>
+    <string name="prefs_security_set_key">Set Key</string>
     <string name="preview_image_description">Image preview</string>
     <string name="preview_image_error_unknown_format">This image cannot be shown</string>
     <string name="recommend_subject">"Try %1$s on your smartphone!"</string>
@@ -632,6 +633,9 @@
     <string name="server_url"/>
     <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/strings.xml -->
     <eat-comment/>
+    <string name="set_key_enter_current_key">Enter current key</string>
+    <string name="set_key_enter_key_explanation">This key will be required to get file(s)</string>
+    <string name="set_key_enter_new_key">Enter new key</string>
     <string name="setup_btn_connect">Connect</string>
     <!-- From: file:/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/res/values/setup.xml -->
     <eat-comment/>

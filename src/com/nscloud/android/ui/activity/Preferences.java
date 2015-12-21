@@ -61,6 +61,7 @@ import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.nscloud.android.BuildConfig;
 import com.nscloud.android.MainApp;
@@ -78,6 +79,8 @@ import com.nscloud.android.services.OperationsService;
 import com.nscloud.android.ui.RadioButtonPreference;
 import com.nscloud.android.utils.DisplayUtils;
 
+import java.security.Permission;
+
 
 /**
  * An Activity that allows the user to change the application's settings.
@@ -92,6 +95,7 @@ public class Preferences extends PreferenceActivity
 
     private static final int ACTION_SELECT_UPLOAD_PATH = 1;
     private static final int ACTION_SELECT_UPLOAD_VIDEO_PATH = 2;
+    private static final int ACTION_SET_KEY = 3;
 
     private DbHandler mDbHandler;
     private CheckBoxPreference pCode;
@@ -111,6 +115,8 @@ public class Preferences extends PreferenceActivity
     private Preference mPrefInstantVideoUploadPath;
     private Preference mPrefInstantVideoUploadPathWiFi;
     private String mUploadVideoPath;
+    private PreferenceCategory mSecurityPrefCategory = null;
+    private Preference mPrefSetKey;
 
     protected FileDownloader.FileDownloaderBinder mDownloaderBinder = null;
     protected FileUploader.FileUploaderBinder mUploaderBinder = null;
@@ -202,6 +208,20 @@ public class Preferences extends PreferenceActivity
                 return false;
             }
         });
+
+        // Security
+        mSecurityPrefCategory = (PreferenceCategory) findPreference("security_category");
+        if (mSecurityPrefCategory != null) {
+            mPrefSetKey = mSecurityPrefCategory.findPreference("set_key");
+            mPrefSetKey.setOnPreferenceClickListener(new OnPreferenceClickListener() {
+                @Override
+                public boolean onPreferenceClick(Preference preference) {
+                    Intent intent = new Intent(Preferences.this, SetKey.class);
+                    startActivityForResult(intent, ACTION_SET_KEY);
+                    return true;
+                }
+            });
+        }
 
         // Load package info
         String temp;
@@ -582,6 +602,8 @@ public class Preferences extends PreferenceActivity
             mPrefInstantVideoUploadPath.setSummary(mUploadVideoPath);
 
             saveInstantUploadVideoPathOnPreferences();
+        } else if (requestCode == ACTION_SET_KEY && resultCode == RESULT_OK) {
+            Toast.makeText(Preferences.this, "New key has been set", Toast.LENGTH_SHORT).show();
         }
     }
 

@@ -183,6 +183,10 @@
             android:name="com.nscloud.android.ui.activity.UploadPathActivity"
             android:label="@string/app_name" />
 
+        <activity
+            android:name="com.nscloud.android.ui.activity.SetKey"
+            android:label="@string/app_name" />
+
     </application>
 
 </manifest>

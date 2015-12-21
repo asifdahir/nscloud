@@ -17,6 +17,7 @@ import javax.crypto.spec.SecretKeySpec;
  */
 public class CryptoManager {
     public static final String SF_KEY = "SF_KEY";
+    public static final String SF_KEY_LENGTH_BY_USER = "SF_KEY_LENGTH_BY_USER";
     //public static final String KEY_SERVER = "44444444444444444444444444444444";
     //public static final String KEY_CLIENT = "88888888888888888888888888888888";
     public static final byte[] SALT = new byte[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
@@ -37,8 +38,21 @@ public class CryptoManager {
         return clientKey;
     }
 
+    public static String getClientKeyOriginal() {
+        SharedPreferences sharedPreferences;
+        String clientKey;
+        int length;
+
+        sharedPreferences = MainApp.getAppContext().getSharedPreferences(CryptoManager.SF_KEY, Context.MODE_PRIVATE);
+        clientKey = sharedPreferences.getString(CryptoManager.SF_KEY, "");
+        length = sharedPreferences.getInt(CryptoManager.SF_KEY_LENGTH_BY_USER, 0);
+        clientKey.substring(0, length);
+        return clientKey;
+    }
+
     public static void setClientKey(String clientKey) {
         SharedPreferences sharedPreferences;
+        SharedPreferences.Editor editor;
         StringBuilder stringBuilder;
         SecureRandom secureRandom;
         String randomString;
@@ -52,7 +66,10 @@ public class CryptoManager {
             stringBuilder.append(randomString.charAt(i));
         }
         sharedPreferences = MainApp.getAppContext().getSharedPreferences(CryptoManager.SF_KEY, Context.MODE_PRIVATE);
-        sharedPreferences.edit().putString(CryptoManager.SF_KEY, stringBuilder.toString()).apply();
+        editor = sharedPreferences.edit();
+        editor.putString(CryptoManager.SF_KEY, stringBuilder.toString());
+        editor.putInt(CryptoManager.SF_KEY_LENGTH_BY_USER, clientKey.length());
+        editor.apply();
     }
 
     public CryptoManager(String password, byte[] salt) {

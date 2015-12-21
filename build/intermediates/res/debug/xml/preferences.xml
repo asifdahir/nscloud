@@ -61,6 +61,16 @@
     </PreferenceCategory>-->
 
     <PreferenceCategory
+        android:key="security_category"
+        android:title="@string/prefs_category_security">
+
+        <Preference
+            android:id="@+id/set_key"
+            android:key="set_key"
+            android:title="@string/prefs_security_set_key" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="more"
         android:title="@string/prefs_category_more">
         <!--<Preference

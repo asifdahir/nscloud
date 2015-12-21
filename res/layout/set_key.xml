@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/set_key_enter_current_key"
+        android:textColor="@android:color/black" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/txt_current"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:cursorVisible="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:imeOptions="flagNoExtractUi"
+            android:inputType="textPassword"
+            android:maxLength="32"
+            android:password="true"
+            android:singleLine="true">
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/set_key_enter_new_key"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_key_enter_key_explanation"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/txt_new"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:cursorVisible="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:imeOptions="flagNoExtractUi"
+            android:inputType="textPassword"
+            android:maxLength="32"
+            android:password="true"
+            android:singleLine="true">
+        </EditText>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/save"
+        style="@style/ownCloud.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/common_save_exit" />
+
+</LinearLayout>
