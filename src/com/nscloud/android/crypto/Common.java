@@ -1,8 +1,5 @@
 package com.nscloud.android.crypto;
 
-import android.content.DialogInterface;
-import android.support.v7.app.AlertDialog;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -61,17 +58,30 @@ public class Common {
         String tmpFilePath;
         byte[] buf;
         byte[] outBuff;
+        byte[] randomKey;
+        byte[] encryptedRandomKey;
         int dataReadSize;
         int plainFileSize;
 
         try {
+
+            // generate random bytes to be used as symmetric key
+            randomKey = CryptoManager.generateRandomKey();
+            // encrypt symmetric key with public key
+            encryptedRandomKey = CryptoManager.rsaEncrypt(randomKey);
+
             encryptedFilePath = Common.appendStringToFileName(plainFilePath, "_enc");
             tmpFilePath = Common.appendStringToFileName(plainFilePath, "_tmp");
 
-            cryptoManager = new CryptoManager(CryptoManager.getClientKey(), CryptoManager.SALT);
+            // initialise crypto manager with random bytes
+            cryptoManager = new CryptoManager(randomKey, CryptoManager.SALT);
 
             inputStream = new FileInputStream(plainFilePath);
             outputStream = new FileOutputStream(encryptedFilePath);
+
+            // on encrypted file first write random bytes key encrypted with public key
+            // initial 4096 bytes of file are its encrypted key
+            outputStream.write(encryptedRandomKey);
 
             file = new File(plainFilePath);
             plainFileSize = (int) file.length();
@@ -98,7 +108,7 @@ public class Common {
                 fileFrom.delete();
             }
         } catch (Exception ex) {
-
+            ex.printStackTrace();
         }
     }
 
@@ -120,7 +130,8 @@ public class Common {
             decryptedFilePath = Common.appendStringToFileName(encryptedFilePath, "_dec");
             tmpFilePath = Common.appendStringToFileName(encryptedFilePath, "_tmp");
 
-            cryptoManager = new CryptoManager(CryptoManager.getClientKey(), CryptoManager.SALT);
+            byte[] decrypted = null;
+            cryptoManager = new CryptoManager(decrypted, CryptoManager.SALT);
 
             inputStream = new FileInputStream(encryptedFilePath);
             outputStream = new FileOutputStream(decryptedFilePath);

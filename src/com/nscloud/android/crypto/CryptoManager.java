@@ -17,8 +17,11 @@ import java.security.NoSuchAlgorithmException;
 import java.security.PrivateKey;
 import java.security.PublicKey;
 import java.security.SecureRandom;
+import java.security.cert.Certificate;
+import java.security.cert.CertificateFactory;
 import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
+import java.util.Random;
 
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
@@ -26,6 +29,7 @@ import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
+import javax.security.cert.X509Certificate;
 
 /**
  * Created by Administrator on 11/20/2015.
@@ -40,6 +44,12 @@ public class CryptoManager {
 
     byte[] key = null;
     byte[] iv = null;
+
+    public static byte[] generateRandomKey() {
+        byte[] b = new byte[32];
+        new Random().nextBytes(b);
+        return b;
+    }
 
     public static String getClientKey() {
         SharedPreferences sharedPreferences;
@@ -117,34 +127,38 @@ public class CryptoManager {
 
         byte[] keyBytes = new byte[dis.available()];
         dis.readFully(keyBytes);
-        dis.close();
 
-        X509EncodedKeySpec spec = new X509EncodedKeySpec(keyBytes);
-        KeyFactory kf = KeyFactory.getInstance("RSA");
-        return kf.generatePublic(spec);
+        CertificateFactory f = CertificateFactory.getInstance("X.509");
+        Certificate certificate = (Certificate)f.generateCertificate(inputStream);
+        PublicKey pk = certificate.getPublicKey();
+
+        dis.close();
+        //X509EncodedKeySpec spec = new X509EncodedKeySpec(keyBytes);
+        //KeyFactory kf = KeyFactory.getInstance("RSA");
+        //return kf.generatePublic(spec);
+        return pk;
     }
 
-    public byte[] RSAEncrypt(final byte[] plain) throws Exception {
+    public static byte[] rsaEncrypt(final byte[] input) throws Exception {
         PublicKey publicKey = getPublicKey();
 
         Cipher cipher = Cipher.getInstance("RSA");
         cipher.init(Cipher.ENCRYPT_MODE, publicKey);
-        byte[] encryptedBytes = cipher.doFinal(plain);
-        return encryptedBytes;
+        return cipher.doFinal(input);
     }
 
-    public byte[] RSADecrypt(final byte[] encryptedBytes) throws Exception {
+    public static byte[] rsaDecrypt(final byte[] input) throws Exception {
         PrivateKey privateKey = getPrivateKey();
 
         Cipher cipher = Cipher.getInstance("RSA");
         cipher.init(Cipher.DECRYPT_MODE, privateKey);
-        byte[] decryptedBytes = cipher.doFinal(encryptedBytes);
-        return decryptedBytes;
+        return cipher.doFinal(input);
     }
 
-    public CryptoManager(String password, byte[] salt) {
+    public CryptoManager(byte[] key, byte[] salt) {
         try {
-            key = password.getBytes("UTF-8");
+            //key = password.getBytes("UTF-8");
+            this.key = key;
             iv = salt;
         } catch (Exception ex) {
             ex.printStackTrace();

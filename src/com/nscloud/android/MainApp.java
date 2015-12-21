@@ -29,6 +29,7 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 import com.nscloud.android.authentication.PassCodeManager;
+import com.nscloud.android.crypto.Common;
 import com.nscloud.android.crypto.CryptoManager;
 import com.nscloud.android.datamodel.ThumbnailsCacheManager;
 import com.nscloud.lib.common.NsCloudClientManagerFactory;
@@ -130,12 +131,8 @@ public class MainApp extends Application {
                 }
             });
         }
-        try {
-            CryptoManager.setClientKey("android");
-            CryptoManager.getPrivateKey();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+
+        Common.encryptAndReplacePlainFile("");
     }
 
     public static Context getAppContext() {

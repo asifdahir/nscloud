@@ -16,33 +16,15 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2e7bf6a-e0a2-400d-b4de-69d77f5d1e01" name="Default" comment="crypto manager&#10;&#10;-mac">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/raw/rsa_example_keypair" />
+    <list default="true" id="a2e7bf6a-e0a2-400d-b4de-69d77f5d1e01" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/MainApp$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/MainApp$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/MainApp.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/MainApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/R$raw.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/R$raw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/R$style.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/R$styleable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/R$xml.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/R$xml.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/R.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/nscloud/android/R.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/nsCloud/nscloud-library/unspecified/jars/classes.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/nsCloud/nscloud-library/unspecified/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nscloud-library/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/nscloud-library/build/intermediates/bundles/debug/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nscloud-library/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/nscloud-library/build/intermediates/bundles/release/classes.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/nsCloud-debug-unaligned.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/nsCloud-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/nsCloud-debug.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/nsCloud-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nscloud-library/build/outputs/aar/nscloud-library-debug.aar" afterPath="$PROJECT_DIR$/nscloud-library/build/outputs/aar/nscloud-library-debug.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nscloud-library/build/outputs/aar/nscloud-library-release.aar" afterPath="$PROJECT_DIR$/nscloud-library/build/outputs/aar/nscloud-library-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/build/intermediates/resources/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nscloud-library/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/nscloud-library/build/intermediates/resources/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/resources/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java" afterPath="$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nscloud/android/crypto/CryptoManager.java" afterPath="$PROJECT_DIR$/src/com/nscloud/android/crypto/CryptoManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nscloud/android/MainApp.java" afterPath="$PROJECT_DIR$/src/com/nscloud/android/MainApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/nscloud/android/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/nscloud/android/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeResources/debug/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nsCloud.iws" />
@@ -68,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/operations/UploadFileOperation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="310" column="0" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+              <caret line="310" column="27" selection-start-line="310" selection-start-column="27" selection-end-line="310" selection-end-column="27" />
               <folding>
                 <element signature="docComment;class#UploadFileOperation#0" expanded="false" />
                 <element signature="method#UploadFileOperation#0;class#UploadFileOperation#0" expanded="false" />
@@ -156,37 +138,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CryptoManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/crypto/CryptoManager.java">
+      <file leaf-file-name="Common.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3983051">
-              <caret line="63" column="46" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.2457627">
+              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding>
-                <element signature="method#CryptoManager#0;class#CryptoManager#0" expanded="false" />
-                <element signature="method#encrypt#0;class#CryptoManager#0" expanded="false" />
-                <element signature="method#decrypt#0;class#CryptoManager#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#copyFile#0;class#Common#0" expanded="false" />
+                <element signature="method#getFileExtension#0;class#Common#0" expanded="false" />
+                <element signature="method#getFileNameWithoutExtension#0;class#Common#0" expanded="false" />
+                <element signature="method#appendStringToFileName#0;class#Common#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/MainApp.java">
+      <file leaf-file-name="CryptoManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/crypto/CryptoManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SetKey.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/activity/SetKey.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <caret line="122" column="29" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#getClientKey#0;class#CryptoManager#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -1743,7 +1717,6 @@
         <option value="$PROJECT_DIR$/src/com/nscloud/android/ui/preview/PreviewTextFragment.java" />
         <option value="$PROJECT_DIR$/src/com/nscloud/android/crypto/Manager.java" />
         <option value="$PROJECT_DIR$/src/com/nscloud/android/ui/fragment/OCFileListFragment.java" />
-        <option value="$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java" />
         <option value="$PROJECT_DIR$/res/xml/preferences.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/set_key.xml" />
@@ -1751,6 +1724,7 @@
         <option value="$PROJECT_DIR$/src/com/nscloud/android/ui/activity/Preferences.java" />
         <option value="$PROJECT_DIR$/src/com/nscloud/android/ui/activity/SetKey.java" />
         <option value="$PROJECT_DIR$/src/com/nscloud/android/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java" />
         <option value="$PROJECT_DIR$/src/com/nscloud/android/crypto/CryptoManager.java" />
       </list>
     </option>
@@ -2263,7 +2237,13 @@
       <option name="project" value="LOCAL" />
       <updated>1450679803246</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="crypto manager&#10;&#10;-mac">
+      <created>1450688857998</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1450688857998</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2279,7 +2259,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29718006" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29609543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264642" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31236443" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.50270635" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2375,13 +2355,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java</url>
-          <line>119</line>
+          <line>129</line>
           <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java</url>
-          <line>132</line>
+          <line>143</line>
           <properties />
           <option name="timeStamp" value="36" />
         </line-breakpoint>
@@ -2404,48 +2384,23 @@
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/nscloud/android/MainApp.java</url>
-          <line>133</line>
+          <url>file://$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java</url>
+          <line>68</line>
           <properties />
-          <option name="timeStamp" value="55" />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/nscloud/android/crypto/CryptoManager.java</url>
+          <line>120</line>
+          <properties />
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="56" />
+      <option name="time" value="60" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="nsCloud">
-        <watch expression="clientKey.substring(0, length)" language="JAVA" custom="" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nscloud-library/src/com/nscloud/lib/common/NsCloudClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.588551">
-          <caret line="221" column="40" selection-start-line="221" selection-start-column="40" selection-end-line="221" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/uploader_list_item_layout.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/upload_files_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6132075">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/utils/CopyTmpFileAsyncTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2735,21 +2690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40380314">
-          <caret line="104" column="80" selection-start-line="104" selection-start-column="80" selection-end-line="104" selection-end-column="80" />
-          <folding>
-            <element signature="method#copyFile#0;class#Common#0" expanded="false" />
-            <element signature="method#getFileExtension#0;class#Common#0" expanded="false" />
-            <element signature="method#getFileNameWithoutExtension#0;class#Common#0" expanded="false" />
-            <element signature="method#appendStringToFileName#0;class#Common#0" expanded="false" />
-            <element signature="method#encryptAndReplacePlainFile#0;class#Common#0" expanded="false" />
-            <element signature="method#decryptAndReplaceEncryptedFile#0;class#Common#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/preference_widget_radiobutton.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -2853,40 +2793,6 @@
         <state vertical-scroll-proportion="0.3642496">
           <caret line="153" column="47" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="47" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/preview/PreviewTextFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="141" column="41" selection-start-line="141" selection-start-column="41" selection-end-line="141" selection-end-column="41" />
-          <folding>
-            <element signature="method#onCreate#0;class#PreviewTextFragment#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/operations/UploadFileOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="310" column="0" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#UploadFileOperation#0" expanded="false" />
-            <element signature="method#UploadFileOperation#0;class#UploadFileOperation#0" expanded="false" />
-            <element signature="method#getDataTransferListeners#0;class#UploadFileOperation#0" expanded="false" />
-            <element signature="method#addDatatransferProgressListener#0;class#UploadFileOperation#0" expanded="false" />
-            <element signature="e#7236#7242#0" expanded="false" />
-            <element signature="e#7388#7451#0" expanded="false" />
-            <element signature="e#9793#9806#0" expanded="false" />
-            <element signature="e#12708#12774#0" expanded="false" />
-            <element signature="e#13198#13234#0" expanded="false" />
-            <element signature="e#13953#14001#0" expanded="false" />
-            <element signature="method#createNewOCFile#0;class#UploadFileOperation#0" expanded="false" />
-            <element signature="docComment;method#getAvailableRemotePath#0;class#UploadFileOperation#0" expanded="false" />
-            <element signature="method#getAvailableRemotePath#0;class#UploadFileOperation#0" expanded="false" />
-            <element signature="method#existsFile#0;class#UploadFileOperation#0" expanded="false" />
-            <element signature="method#cancel#0;class#UploadFileOperation#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3017,24 +2923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/activity/SetKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-22/android.jar!/java/lang/String.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36549166">
@@ -3046,14 +2934,102 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/activity/SetKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8169491">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/operations/UploadFileOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="310" column="27" selection-start-line="310" selection-start-column="27" selection-end-line="310" selection-end-column="27" />
+          <folding>
+            <element signature="docComment;class#UploadFileOperation#0" expanded="false" />
+            <element signature="method#UploadFileOperation#0;class#UploadFileOperation#0" expanded="false" />
+            <element signature="method#getDataTransferListeners#0;class#UploadFileOperation#0" expanded="false" />
+            <element signature="method#addDatatransferProgressListener#0;class#UploadFileOperation#0" expanded="false" />
+            <element signature="e#7236#7242#0" expanded="false" />
+            <element signature="e#7388#7451#0" expanded="false" />
+            <element signature="e#9793#9806#0" expanded="false" />
+            <element signature="e#12708#12774#0" expanded="false" />
+            <element signature="e#13198#13234#0" expanded="false" />
+            <element signature="e#13953#14001#0" expanded="false" />
+            <element signature="method#createNewOCFile#0;class#UploadFileOperation#0" expanded="false" />
+            <element signature="docComment;method#getAvailableRemotePath#0;class#UploadFileOperation#0" expanded="false" />
+            <element signature="method#getAvailableRemotePath#0;class#UploadFileOperation#0" expanded="false" />
+            <element signature="method#existsFile#0;class#UploadFileOperation#0" expanded="false" />
+            <element signature="method#cancel#0;class#UploadFileOperation#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-22/android.jar!/javax/security/cert/X509Certificate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21268657">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/ui/preview/PreviewTextFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="141" column="41" selection-start-line="141" selection-start-column="41" selection-end-line="141" selection-end-column="41" />
+          <folding>
+            <element signature="method#onCreate#0;class#PreviewTextFragment#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-22/android.jar!/java/security/cert/CertificateFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2010582">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-22/android.jar!/java/security/cert/Certificate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2010582">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22112212">
+          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/crypto/CryptoManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3983051">
-          <caret line="63" column="46" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="122" column="29" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
           <folding>
-            <element signature="method#CryptoManager#0;class#CryptoManager#0" expanded="false" />
-            <element signature="method#encrypt#0;class#CryptoManager#0" expanded="false" />
-            <element signature="method#decrypt#0;class#CryptoManager#0" expanded="false" />
+            <element signature="method#getClientKey#0;class#CryptoManager#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nscloud/android/crypto/Common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2457627">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#copyFile#0;class#Common#0" expanded="false" />
+            <element signature="method#getFileExtension#0;class#Common#0" expanded="false" />
+            <element signature="method#getFileNameWithoutExtension#0;class#Common#0" expanded="false" />
+            <element signature="method#appendStringToFileName#0;class#Common#0" expanded="false" />
           </folding>
         </state>
       </provider>
