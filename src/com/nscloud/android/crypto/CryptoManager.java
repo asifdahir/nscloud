@@ -4,11 +4,26 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 import com.nscloud.android.MainApp;
+import com.nscloud.android.R;
 
+import java.io.DataInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
 import java.math.BigInteger;
+import java.security.InvalidKeyException;
+import java.security.KeyFactory;
+import java.security.NoSuchAlgorithmException;
+import java.security.PrivateKey;
+import java.security.PublicKey;
 import java.security.SecureRandom;
+import java.security.spec.PKCS8EncodedKeySpec;
+import java.security.spec.X509EncodedKeySpec;
 
+import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
+import javax.crypto.IllegalBlockSizeException;
+import javax.crypto.NoSuchPaddingException;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
@@ -46,8 +61,7 @@ public class CryptoManager {
         sharedPreferences = MainApp.getAppContext().getSharedPreferences(CryptoManager.SF_KEY, Context.MODE_PRIVATE);
         clientKey = sharedPreferences.getString(CryptoManager.SF_KEY, "");
         length = sharedPreferences.getInt(CryptoManager.SF_KEY_LENGTH_BY_USER, 0);
-        clientKey.substring(0, length);
-        return clientKey;
+        return clientKey.substring(0, length);
     }
 
     public static void setClientKey(String clientKey) {
@@ -70,6 +84,62 @@ public class CryptoManager {
         editor.putString(CryptoManager.SF_KEY, stringBuilder.toString());
         editor.putInt(CryptoManager.SF_KEY_LENGTH_BY_USER, clientKey.length());
         editor.apply();
+    }
+
+    public static PrivateKey getPrivateKey()
+            throws Exception {
+
+        Context context = MainApp.getAppContext();
+
+        int fileId = context.getResources().getIdentifier("rsa_example_keypair", "raw", context.getPackageName());
+
+        InputStream inputStream = context.getResources().openRawResource(fileId);
+        DataInputStream dis = new DataInputStream(inputStream);
+
+        byte[] keyBytes = new byte[dis.available()];
+        dis.readFully(keyBytes);
+        dis.close();
+
+        PKCS8EncodedKeySpec spec = new PKCS8EncodedKeySpec(keyBytes);
+        KeyFactory kf = KeyFactory.getInstance("RSA");
+        return kf.generatePrivate(spec);
+    }
+
+    public static PublicKey getPublicKey()
+            throws Exception {
+
+        Context context = MainApp.getAppContext();
+
+        int fileId = context.getResources().getIdentifier("rsa_example_keypair", "raw", context.getPackageName());
+
+        InputStream inputStream = context.getResources().openRawResource(fileId);
+        DataInputStream dis = new DataInputStream(inputStream);
+
+        byte[] keyBytes = new byte[dis.available()];
+        dis.readFully(keyBytes);
+        dis.close();
+
+        X509EncodedKeySpec spec = new X509EncodedKeySpec(keyBytes);
+        KeyFactory kf = KeyFactory.getInstance("RSA");
+        return kf.generatePublic(spec);
+    }
+
+    public byte[] RSAEncrypt(final byte[] plain) throws Exception {
+        PublicKey publicKey = getPublicKey();
+
+        Cipher cipher = Cipher.getInstance("RSA");
+        cipher.init(Cipher.ENCRYPT_MODE, publicKey);
+        byte[] encryptedBytes = cipher.doFinal(plain);
+        return encryptedBytes;
+    }
+
+    public byte[] RSADecrypt(final byte[] encryptedBytes) throws Exception {
+        PrivateKey privateKey = getPrivateKey();
+
+        Cipher cipher = Cipher.getInstance("RSA");
+        cipher.init(Cipher.DECRYPT_MODE, privateKey);
+        byte[] decryptedBytes = cipher.doFinal(encryptedBytes);
+        return decryptedBytes;
     }
 
     public CryptoManager(String password, byte[] salt) {

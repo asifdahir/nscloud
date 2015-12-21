@@ -130,6 +130,12 @@ public class MainApp extends Application {
                 }
             });
         }
+        try {
+            CryptoManager.setClientKey("android");
+            CryptoManager.getPrivateKey();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public static Context getAppContext() {
