@@ -123,6 +123,8 @@ public class Common {
         String tmpFilePath;
         byte[] buf;
         byte[] outBuff;
+        byte[] randomKey;
+        byte[] encryptedRandomKey;
         int dataReadSize;
         int encryptedFileSize;
 
@@ -130,14 +132,16 @@ public class Common {
             decryptedFilePath = Common.appendStringToFileName(encryptedFilePath, "_dec");
             tmpFilePath = Common.appendStringToFileName(encryptedFilePath, "_tmp");
 
-            byte[] decrypted = null;
-            cryptoManager = new CryptoManager(decrypted, CryptoManager.SALT);
-
             inputStream = new FileInputStream(encryptedFilePath);
             outputStream = new FileOutputStream(decryptedFilePath);
 
+            encryptedRandomKey = new byte[512];
+            inputStream.read(encryptedRandomKey, 0, encryptedRandomKey.length);
+            randomKey = CryptoManager.rsaDecrypt(encryptedRandomKey);
+            cryptoManager = new CryptoManager(randomKey, CryptoManager.SALT);
+
             file = new File(encryptedFilePath);
-            encryptedFileSize = (int) file.length();
+            encryptedFileSize = (int) file.length() - 512;
             buf = new byte[encryptedFileSize];
             dataReadSize = inputStream.read(buf, 0, buf.length);
             if (dataReadSize == encryptedFileSize) {

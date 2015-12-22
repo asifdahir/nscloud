@@ -4,31 +4,22 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 import com.nscloud.android.MainApp;
-import com.nscloud.android.R;
 
 import java.io.DataInputStream;
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.InputStream;
 import java.math.BigInteger;
-import java.security.InvalidKeyException;
 import java.security.KeyFactory;
-import java.security.NoSuchAlgorithmException;
 import java.security.PrivateKey;
 import java.security.PublicKey;
 import java.security.SecureRandom;
-import java.security.cert.Certificate;
 import java.security.cert.CertificateFactory;
 import java.security.spec.PKCS8EncodedKeySpec;
-import java.security.spec.X509EncodedKeySpec;
 import java.util.Random;
 
-import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
-import javax.crypto.IllegalBlockSizeException;
-import javax.crypto.NoSuchPaddingException;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
+import javax.security.cert.Certificate;
 import javax.security.cert.X509Certificate;
 
 /**
@@ -120,19 +111,22 @@ public class CryptoManager {
 
         Context context = MainApp.getAppContext();
 
-        int fileId = context.getResources().getIdentifier("rsa_example_keypair", "raw", context.getPackageName());
+        int fileId = context.getResources().getIdentifier("rsa_example_cert_der", "raw", context.getPackageName());
 
         InputStream inputStream = context.getResources().openRawResource(fileId);
         DataInputStream dis = new DataInputStream(inputStream);
 
         byte[] keyBytes = new byte[dis.available()];
         dis.readFully(keyBytes);
-
-        CertificateFactory f = CertificateFactory.getInstance("X.509");
-        Certificate certificate = (Certificate)f.generateCertificate(inputStream);
-        PublicKey pk = certificate.getPublicKey();
-
         dis.close();
+
+        inputStream = context.getResources().openRawResource(fileId);
+        CertificateFactory f = CertificateFactory.getInstance("X.509");
+        java.security.cert.X509Certificate certificate =
+                (java.security.cert.X509Certificate) f.generateCertificate(inputStream);
+        PublicKey pk = certificate.getPublicKey();
+        inputStream.close();
+
         //X509EncodedKeySpec spec = new X509EncodedKeySpec(keyBytes);
         //KeyFactory kf = KeyFactory.getInstance("RSA");
         //return kf.generatePublic(spec);
