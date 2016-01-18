@@ -80,7 +80,7 @@ public class Common {
             outputStream = new FileOutputStream(encryptedFilePath);
 
             // on encrypted file first write random bytes key encrypted with public key
-            // initial 4096 bytes of file are its encrypted key
+            // initial 512 bytes of file are its encrypted key
             outputStream.write(encryptedRandomKey);
 
             file = new File(plainFilePath);
@@ -165,7 +165,7 @@ public class Common {
                 fileFrom.delete();
             }
         } catch (Exception ex) {
-
+            ex.printStackTrace();
         }
     }
 }

@@ -2,18 +2,26 @@ package com.nscloud.android.crypto;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.util.Base64;
 
 import com.nscloud.android.MainApp;
 
 import java.io.DataInputStream;
+import java.io.IOException;
 import java.io.InputStream;
 import java.math.BigInteger;
 import java.security.KeyFactory;
+import java.security.NoSuchAlgorithmException;
 import java.security.PrivateKey;
 import java.security.PublicKey;
 import java.security.SecureRandom;
 import java.security.cert.CertificateFactory;
+import java.security.spec.InvalidKeySpecException;
 import java.security.spec.PKCS8EncodedKeySpec;
+import java.security.spec.RSAPrivateKeySpec;
+import java.security.spec.RSAPublicKeySpec;
+import java.security.spec.X509EncodedKeySpec;
+import java.util.Enumeration;
 import java.util.Random;
 
 import javax.crypto.Cipher;
@@ -87,50 +95,71 @@ public class CryptoManager {
         editor.apply();
     }
 
-    public static PrivateKey getPrivateKey()
-            throws Exception {
+    public static PrivateKey getPrivateKey() throws Exception {
 
-        Context context = MainApp.getAppContext();
+        Context context;
+        PKCS8EncodedKeySpec keySpec;
+        KeyFactory keyFactory;
+        PrivateKey privateKey;
+        InputStream inputStream;
+        DataInputStream dataInputStream;
+        String keyBytesString;
+        int fileId;
+        byte[] keyBytes;
+        byte[] encoded;
 
-        int fileId = context.getResources().getIdentifier("rsa_example_keypair", "raw", context.getPackageName());
+        context = MainApp.getAppContext();
+        fileId = context.getResources().getIdentifier("private_key", "raw", context.getPackageName());
+        inputStream = context.getResources().openRawResource(fileId);
+        dataInputStream = new DataInputStream(inputStream);
 
-        InputStream inputStream = context.getResources().openRawResource(fileId);
-        DataInputStream dis = new DataInputStream(inputStream);
+        keyBytes = new byte[dataInputStream.available()];
+        dataInputStream.readFully(keyBytes);
+        dataInputStream.close();
 
-        byte[] keyBytes = new byte[dis.available()];
-        dis.readFully(keyBytes);
-        dis.close();
+        keyBytesString = new String(keyBytes);
+        keyBytesString = keyBytesString.replace("-----BEGIN RSA PRIVATE KEY-----\n", "");
+        keyBytesString = keyBytesString.replace("-----END RSA PRIVATE KEY-----", "");
+        encoded = Base64.decode(keyBytesString, Base64.DEFAULT);
 
-        PKCS8EncodedKeySpec spec = new PKCS8EncodedKeySpec(keyBytes);
-        KeyFactory kf = KeyFactory.getInstance("RSA");
-        return kf.generatePrivate(spec);
+        keySpec = new PKCS8EncodedKeySpec(encoded);
+        keyFactory = KeyFactory.getInstance("RSA", "BC");
+        privateKey = keyFactory.generatePrivate(keySpec);
+
+        return privateKey;
     }
 
-    public static PublicKey getPublicKey()
-            throws Exception {
+    public static PublicKey getPublicKey() throws Exception {
 
-        Context context = MainApp.getAppContext();
+        Context context;
+        X509EncodedKeySpec x509EncodedKeySpec;
+        KeyFactory keyFactory;
+        PublicKey publicKey;
+        InputStream inputStream;
+        DataInputStream dataInputStream;
+        String keyBytesString;
+        int fileId;
+        byte[] keyBytes;
+        byte[] encoded;
 
-        int fileId = context.getResources().getIdentifier("rsa_example_cert_der", "raw", context.getPackageName());
-
-        InputStream inputStream = context.getResources().openRawResource(fileId);
-        DataInputStream dis = new DataInputStream(inputStream);
-
-        byte[] keyBytes = new byte[dis.available()];
-        dis.readFully(keyBytes);
-        dis.close();
-
+        context = MainApp.getAppContext();
+        fileId = context.getResources().getIdentifier("public_key", "raw", context.getPackageName());
         inputStream = context.getResources().openRawResource(fileId);
-        CertificateFactory f = CertificateFactory.getInstance("X.509");
-        java.security.cert.X509Certificate certificate =
-                (java.security.cert.X509Certificate) f.generateCertificate(inputStream);
-        PublicKey pk = certificate.getPublicKey();
-        inputStream.close();
+        dataInputStream = new DataInputStream(inputStream);
 
-        //X509EncodedKeySpec spec = new X509EncodedKeySpec(keyBytes);
-        //KeyFactory kf = KeyFactory.getInstance("RSA");
-        //return kf.generatePublic(spec);
-        return pk;
+        keyBytes = new byte[dataInputStream.available()];
+        dataInputStream.readFully(keyBytes);
+        dataInputStream.close();
+
+        keyBytesString = new String(keyBytes);
+        keyBytesString = keyBytesString.replace("-----BEGIN PUBLIC KEY-----\n", "");
+        keyBytesString = keyBytesString.replace("-----END PUBLIC KEY-----", "");
+        encoded = Base64.decode(keyBytesString, Base64.DEFAULT);
+        x509EncodedKeySpec = new X509EncodedKeySpec(encoded);
+        keyFactory = KeyFactory.getInstance("RSA", "BC");
+        publicKey = keyFactory.generatePublic(x509EncodedKeySpec);
+
+        return publicKey;
     }
 
     public static byte[] rsaEncrypt(final byte[] input) throws Exception {

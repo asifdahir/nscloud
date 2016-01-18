@@ -96,7 +96,7 @@ public class BitmapUtils {
             final int halfHeight = height / 2;
             final int halfWidth = width / 2;
 
-            // calculates the largest inSampleSize value (for smallest sample) that is a power of 2 and keeps both
+            // calculates the largest inSampleSize value (for smallest sample_private_key) that is a power of 2 and keeps both
             // height and width **larger** than the requested height and width.
             while ((halfHeight / inSampleSize) > reqHeight
                     && (halfWidth / inSampleSize) > reqWidth) {

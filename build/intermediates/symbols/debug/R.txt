@@ -945,7 +945,8 @@ int menu account_picker_long_click 0x7f0f0000
 int menu file_actions_menu 0x7f0f0001
 int menu main_menu 0x7f0f0002
 int raw changelog 0x7f060000
-int raw rsa_example_cert_der 0x7f060001
+int raw private_key 0x7f060001
+int raw public_key 0x7f060002
 int string abc_action_bar_home_description 0x7f07000d
 int string abc_action_bar_home_description_format 0x7f070161
 int string abc_action_bar_home_subtitle_description_format 0x7f070162

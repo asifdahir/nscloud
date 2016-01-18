@@ -36,6 +36,8 @@ import com.nscloud.lib.common.NsCloudClientManagerFactory;
 import com.nscloud.lib.common.NsCloudClientManagerFactory.Policy;
 import com.nscloud.lib.common.utils.Log_OC;
 
+import java.security.PrivateKey;
+
 
 /**
  * Main Application of the project
@@ -131,9 +133,6 @@ public class MainApp extends Application {
                 }
             });
         }
-
-        Common.encryptAndReplacePlainFile("/storage/sdcard0/nscloud/nsuser1@192.168.2.110%2Fowncloud/Pakistan/text.txt");
-        Common.decryptAndReplaceEncryptedFile("/storage/sdcard0/nscloud/nsuser1@192.168.2.110%2Fowncloud/Pakistan/text.txt");
     }
 
     public static Context getAppContext() {

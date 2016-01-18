@@ -2,32 +2,18 @@
 <items version="2" >
 
     <item
-        jar="/Users/intelligentsystems/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-770e1bdbde6d74552cc0f4c35d6dd1fdbbe86104.jar" />
-    </item>
-    <item
-        jar="/Users/intelligentsystems/.gradle/caches/modules-2/files-2.1/com.jakewharton/disklrucache/2.0.2/93b399470e72c0bc8cb52379943b63c9aa586cd8/disklrucache-2.0.2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="93b399470e72c0bc8cb52379943b63c9aa586cd8">
-        <dex dex="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/pre-dexed/debug/disklrucache-2.0.2-44d9882685e9a243fe18b47110969d64620224ef.jar" />
-    </item>
-    <item
-        jar="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/nsCloud/nscloud-library/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="5d6262f8c2a109a4e6c191adc096e4a0a6f06ff3">
-        <dex dex="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/pre-dexed/debug/classes-75124da1188f3ed82aa4949ed7238138d697dc45.jar" />
-    </item>
-    <item
         jar="/Users/intelligentsystems/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.4/b7c1efe9a78b315b6be624e6f6f944788c6be6c0/jcl-over-slf4j-1.7.4.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="b7c1efe9a78b315b6be624e6f6f944788c6be6c0">
         <dex dex="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/pre-dexed/debug/jcl-over-slf4j-1.7.4-5c9438117103192f297a116526e91ebc4d9663d5.jar" />
+    </item>
+    <item
+        jar="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-82ecd3a1fe3b4b5243181e5a1e05b8cb779adcb5.jar" />
     </item>
     <item
         jar="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
@@ -37,11 +23,25 @@
         <dex dex="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/pre-dexed/debug/classes-b106687e5411e2a8372614d83052419d971d40b1.jar" />
     </item>
     <item
-        jar="/Users/intelligentsystems/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.4/b080da16832c1240acbf3f59f338a8e713705c0c/slf4j-api-1.7.4.jar"
+        jar="/Users/intelligentsystems/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.2/397f4731a9f9b6eb1907e224911c77ea3aa27a8b/commons-codec-1.2.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="b080da16832c1240acbf3f59f338a8e713705c0c">
-        <dex dex="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/pre-dexed/debug/slf4j-api-1.7.4-479b73c803b8bdf3b01fa6030149eeb5939859ca.jar" />
+        sha1="397f4731a9f9b6eb1907e224911c77ea3aa27a8b">
+        <dex dex="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/pre-dexed/debug/commons-codec-1.2-784bd5a2e503b61eda39f2eb5a13106df690581f.jar" />
+    </item>
+    <item
+        jar="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/nsCloud/nscloud-library/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3eb065c5e3008f1a507273cb1f0b3fde8dd331b5">
+        <dex dex="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/pre-dexed/debug/classes-75124da1188f3ed82aa4949ed7238138d697dc45.jar" />
+    </item>
+    <item
+        jar="/Users/intelligentsystems/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-770e1bdbde6d74552cc0f4c35d6dd1fdbbe86104.jar" />
     </item>
     <item
         jar="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/libs/touch-image-view.jar"
@@ -58,6 +58,13 @@
         <dex dex="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/pre-dexed/debug/jackrabbit-webdav-2.10.1-943d69738558076a0bb8e7bca5c1b8bc756c248f.jar" />
     </item>
     <item
+        jar="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/pre-dexed/debug/classes-6d548f8cc95e693dccbe0f29f5236c54534f727f.jar" />
+    </item>
+    <item
         jar="/Users/intelligentsystems/.gradle/caches/modules-2/files-2.1/commons-httpclient/commons-httpclient/3.1/964cd74171f427720480efdec40a7c7f6e58426a/commons-httpclient-3.1.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -65,25 +72,18 @@
         <dex dex="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/pre-dexed/debug/commons-httpclient-3.1-157e8da2031d159421e04819580d010891ac8ce2.jar" />
     </item>
     <item
-        jar="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jar="/Users/intelligentsystems/.gradle/caches/modules-2/files-2.1/com.jakewharton/disklrucache/2.0.2/93b399470e72c0bc8cb52379943b63c9aa586cd8/disklrucache-2.0.2.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-82ecd3a1fe3b4b5243181e5a1e05b8cb779adcb5.jar" />
+        sha1="93b399470e72c0bc8cb52379943b63c9aa586cd8">
+        <dex dex="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/pre-dexed/debug/disklrucache-2.0.2-44d9882685e9a243fe18b47110969d64620224ef.jar" />
     </item>
     <item
-        jar="/Users/intelligentsystems/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.2/397f4731a9f9b6eb1907e224911c77ea3aa27a8b/commons-codec-1.2.jar"
+        jar="/Users/intelligentsystems/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.4/b080da16832c1240acbf3f59f338a8e713705c0c/slf4j-api-1.7.4.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="397f4731a9f9b6eb1907e224911c77ea3aa27a8b">
-        <dex dex="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/pre-dexed/debug/commons-codec-1.2-784bd5a2e503b61eda39f2eb5a13106df690581f.jar" />
-    </item>
-    <item
-        jar="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/pre-dexed/debug/classes-6d548f8cc95e693dccbe0f29f5236c54534f727f.jar" />
+        sha1="b080da16832c1240acbf3f59f338a8e713705c0c">
+        <dex dex="/Users/intelligentsystems/Documents/AndroidStudioProjects/nsCloud/build/intermediates/pre-dexed/debug/slf4j-api-1.7.4-479b73c803b8bdf3b01fa6030149eeb5939859ca.jar" />
     </item>
 
 </items>
